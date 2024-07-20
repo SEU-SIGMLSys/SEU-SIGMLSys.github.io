@@ -219,7 +219,7 @@
     })),$("#schedule-container").on("click",".label",(function(){
         applyFilter($(this).text().trim())
     })),$("#schedule-container").on("click",".presenter",(function(){
-        applyFilter($(this).text().trim())
+        applyFilter($(this).text().split('|')[0].trim())
     })),window.onpopstate=()=>{
         applyFilter(new URLSearchParams(window.location.search).get("q")||"")
     }
