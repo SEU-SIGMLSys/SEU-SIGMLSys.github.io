@@ -5,3 +5,9 @@
 - Blogs修改
 - 标题等对应不上的修改
 - 讲者通过schedule.js自己更新
+### 如何更新：
+git checkout -b XXX
+git push origin XXX
+git pull origin XXX
+git branch --set-upstream-to=origin/XXX XXX
+git push origin XXX
