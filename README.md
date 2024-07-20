@@ -8,48 +8,52 @@
 ### 如何更新：
     git clone https://github.com/SEU-SIGMLSystem/SEU-SIGMLSystem.github.io.git
     cd SEU-SIGMLSystem.github.io.git
-    # 创建自己的本地分支
+#### git绑定账户
+    git config --global user.name "yourname"
+    git config --global user.email "youremail"
+    # 若需要输入passwd，则需要使用生成的token而不是github密码
+#### 创建自己的本地分支
     git checkout -b XXX
-    # 在远程仓库中生成分支
+#### 在远程仓库中生成分支
     git push origin XXX
-    # 绑定远程分支和本地分支
+#### 绑定远程分支和本地分支
     git branch --set-upstream-to=origin/XXX XXX
-    # 修改 schedules.js
+#### 修改 schedules.js
     {
-        "title":"CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters",
-        "conf":"NSDI'24",
-        "presenter":"Botai Sun",
-        "date":"July 18, 2024.",
-        "time":"7:00 p.m.",
-        "location":"Room CSxxx @ SEU & Online",
+        "title":"...",
+        "conf":"...",
+        "presenter":"...",
+        "date":"...",
+        "time":"...",
+        "location":"...",
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"https://meeting.tencent.com/dm/RfNf0JCHCja7"
+                "url":"..."
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-18.pdf"
+                "url":"..."
             }
         ],
         "dblp":{
             "source":"DBLP",
-            "url":"https://www.usenix.org/conference/nsdi24/presentation/rajasekaran"
+            "url":"..."
         }
     },
-    # 修改 index.html (line 60)
-    <div class="description">Botai Sun will present an NSDI&#39;24 paper on 7:00 p.m., July 18, 2024. at Room CSxxx @ SEU &amp; Online.</div>
+#### 修改 index.html (line 60)
+    <div class="description">... will present an ... paper on ..., ... at ... .</div>
+#### 上传更新至XXX分支 
     git add index.html
     git add schedules.js
-    git commit -m "update 2024.7.18 schedule"
-    # 上传更新至远程仓库XXX分支
+    git commit -m "update ... schedule"
     git push origin XXX
-    # 回到main分支
+#### 回到main分支进行合并
     git checkout main
     git merge XXX
     git push origin main
-    # 删除远程与本地分支
+#### 查看远程与本地分支 
+    git branch -a
+#### 删除远程与本地分支
     git push origin --delete XXX
     git branch -D xxx
-    # 查看远程与本地分支
-    git branch -a

@@ -1,5 +1,27 @@
 var schedules = [
     {
+        "title":"...",
+        "conf":"...",
+        "presenter":"Changshuo Yao",
+        "date":"July 25, 2024.",
+        "time":"7:00 p.m.",
+        "location":"Room CSxxx @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"..."
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/..."
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"..."
+        }
+    },
+    {
         "title":"CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters",
         "conf":"NSDI'24",
         "presenter":"Botai Sun",
