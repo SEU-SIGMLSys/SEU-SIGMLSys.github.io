@@ -48,12 +48,10 @@
     git add schedules.js
     git commit -m "update ... schedule"
     git push origin XXX
-#### 回到main分支进行合并
-    git checkout main
-    git merge XXX
-    git push origin main
+#### 在github界面实现pull requests申请，由管理员审批通过后完成merge
 #### 查看远程与本地分支 
     git branch -a
 #### 删除远程与本地分支
+    git checkout main
     git push origin --delete XXX
     git branch -D xxx
