@@ -1,6 +1,4 @@
 # SEU-SIGMLSystem.github.io
-- Blogs修改
-- 标题等对应不上的修改
 ### 如何更新：
     git clone https://github.com/SEU-SIGMLSystem/SEU-SIGMLSystem.github.io.git
     cd SEU-SIGMLSystem.github.io.git
