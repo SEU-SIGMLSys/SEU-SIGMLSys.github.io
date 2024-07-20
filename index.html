@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>MLSls Reading Group @ SEU</title>
+    <title>MLSys Reading Group @ SEU</title>
     <link rel="icon" href="/assets/seu.png">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -116,7 +116,7 @@
     </div>
     <div class="ui vertical segment">
         <div class="ui center aligned container">
-            <div class="ui horizontal small divided link list">2024 SEU-ESG. Powered by
+            <div class="ui horizontal small divided link list">2024 SEU-SIGMLSystem. Powered by
                 <a href="https://pages.github.com">GitHub Pages</a> and <a href="https://ejs.co/">EJS</a>.<p></p>
             </div>
         </div>
@@ -180,18 +180,42 @@
     }
     function renderSchedules(e){
         const n=$("#schedule-container")[0];n.innerHTML="",e.forEach((e=>{
-            const i=document.createElement("div"),t=e.links.map((e=>`<a href="${e.url}">${e.title}</a>`)).join(" | ");
-            i.className="ui vertical segment",i.innerHTML=`\n                <h4><a class="ui ${labelColors[hash(e.conf)%labelColors.length]} ribbon label">\n                    ${e.conf}\n                </a>${e.title}</h4>\n                <div class="ui list">\n                    <div class="item">\n                        <a class="description presenter">\n                            <i class="user icon"></i>\n                            ${e.presenter}\n                        </a>\n                    </div>\n                    <div class="item">\n                        <span class="description">\n                            <i class="map marker alternate icon"></i>\n                            ${e.location}\n                        </span>\n                    </div>\n                    <div class="item">\n                        <span class="description">\n                            <i class="clock icon"></i>\n                            ${e.time} ${e.date}\n                        </span>\n                    </div>\n                    <div class="item">\n                        <span class="description">\n                            <i class="linkify icon"></i>\n                            ${t}\n                        </span>\n                    </div>\n                    ${e.dblp?`<div class="item pc-only">\n                        <span class="description">\n                            <i class="file pdf icon"></i>\n                            <a href="${e.dblp.url}" target="_blank">${e.dblp.url}</a>\n                        </span>\n                    </div><div class="item mobile-only">\n                        <span class="description">\n                            <i class="file pdf icon"></i>\n                            <a href="${e.dblp.url}" target="_blank">DOI</a>\n                        </span>\n                    </div>`:""}\n                </div>\n            `,n.appendChild(i)
+            const i=document.createElement("div"),t=e.links.map((e=>`<a href="${e.url}">${e.title}</a>`)).join(" | "),p=`${e.presenter} | ${e.facilitator}`;
+            i.className="ui vertical segment",i.innerHTML=`\n
+                <h4>
+                    <a class="ui ${labelColors[hash(e.conf)%labelColors.length]} ribbon label">\n${e.conf}\n</a>${e.title}
+                </h4>\n
+                <div class="ui list">\n
+                    <div class="item">\n
+                        <a class="description presenter">\n<i class="user icon"></i>\n${p}\n</a>\n
+                    </div>\n
+                    <div class="item">\n
+                        <span class="description">\n<i class="map marker alternate icon"></i>\n${e.location}\n</span>\n
+                    </div>\n
+                    <div class="item">\n
+                        <span class="description">\n<i class="clock icon"></i>\n${e.time} ${e.date}\n</span>\n
+                    </div>\n
+                    <div class="item">\n
+                        <span class="description">\n<i class="linkify icon"></i>\n${t}\n</span>\n
+                    </div>\n
+                    ${e.dblp?`<div class="item pc-only">\n
+                        <span class="description">\n<i class="file pdf icon"></i>\n<a href="${e.dblp.url}" target="_blank">${e.dblp.url}</a>\n</span>\n
+                    </div>
+                    <div class="item mobile-only">\n
+                        <span class="description">\n<i class="file pdf icon"></i>\n<a href="${e.dblp.url}" target="_blank">DOI</a>\n</span>\n
+                    </div>`:""}\n
+                </div>\n`,n.appendChild(i)
         }))
     }
     function applyFilter(e){
         $("#search-input").val(e),$("#search-input").trigger("input")
     }$(document).ready((()=>{
-        const e=new URLSearchParams(window.location.search).get("q")||"";e?applyFilter(e):(renderSchedules(sliceSchedules(filteredSchedules,currentPage)),renderPagination(currentPage,totalPage))
+        const e=new URLSearchParams(window.location.search).get("q")||"";
+        e?applyFilter(e):(renderSchedules(sliceSchedules(filteredSchedules,currentPage)),renderPagination(currentPage,totalPage))
     })),$("#pagination").on("click","a",(function(){
         $(this).hasClass("disabled")||($(this).hasClass("icon")?$(this).find("i").hasClass("left")?currentPage-=1:currentPage+=1:currentPage=parseInt($(this).text()),renderSchedules(sliceSchedules(filteredSchedules,currentPage)),renderPagination(currentPage,totalPage))
     })),$("#search-input").on("input",(function(){
-                const e=$(this).val().trim();window.history.replaceState({},"",e?`?q=${e}`:"/"),filteredSchedules=filterSchedules(e),currentPage=1,totalPage=Math.ceil(filteredSchedules.length/schedulesPerPage),renderSchedules(sliceSchedules(filteredSchedules,currentPage)),renderPagination(currentPage,totalPage)
+        const e=$(this).val().trim();window.history.replaceState({},"",e?`?q=${e}`:"/"),filteredSchedules=filterSchedules(e),currentPage=1,totalPage=Math.ceil(filteredSchedules.length/schedulesPerPage),renderSchedules(sliceSchedules(filteredSchedules,currentPage)),renderPagination(currentPage,totalPage)
     })),$("#schedule-container").on("click",".label",(function(){
         applyFilter($(this).text().trim())
     })),$("#schedule-container").on("click",".presenter",(function(){
