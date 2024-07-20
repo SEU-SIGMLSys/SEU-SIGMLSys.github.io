@@ -4,10 +4,10 @@
 - Upcoming 修改
 - Blogs修改
 - 标题等对应不上的修改
-- 讲者通过schedule.js自己更新
 ### 如何更新：
     git clone https://github.com/SEU-SIGMLSystem/SEU-SIGMLSystem.github.io.git
     cd SEU-SIGMLSystem.github.io.git
+    (or: git pull origin main)
 #### git绑定账户
     git config --global user.name "yourname"
     git config --global user.email "youremail"
