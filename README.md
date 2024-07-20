@@ -51,3 +51,5 @@
     # 删除远程与本地分支
     git push origin --delete XXX
     git branch -D xxx
+    # 查看远程与本地分支
+    git branch -a
