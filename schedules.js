@@ -1,7 +1,7 @@
 var schedules = [
     {
-        "title":"...",
-        "conf":"...",
+        "title":"LitePred: Transferable and Scalable Latency Prediction for Hardware-Aware Neural Architecture Search",
+        "conf":"NSDI'24",
         "presenter":"Changshuo Yao",
         "facilitator":"Chuanyou Li",
         "date":"July 25, 2024.",
@@ -14,7 +14,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/..."
+                "url":"/slides/2024-7-25.pdf"
             },
             {
                 "title":"Videos",
@@ -23,7 +23,7 @@ var schedules = [
         ],
         "dblp":{
             "source":"DBLP",
-            "url":"..."
+            "url":"https://www.usenix.org/conference/nsdi24/presentation/feng-chengquan"
         }
     },
     {
