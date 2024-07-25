@@ -10,7 +10,7 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"..."
+                "url":"https://meeting.tencent.com/dm/8CGH1csJOVp4"
             },
             {
                 "title":"Slides",
