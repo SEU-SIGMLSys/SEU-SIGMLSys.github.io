@@ -10,11 +10,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-13.pdf"
             },
             {
                 "title":"Videos",
@@ -23,7 +23,7 @@ var schedules = [
         ],
         "dblp":{
             "source":"DBLP",
-            "url":""
+            "url":"https://arxiv.org/abs/2407.05858"
         }
     },
     {
@@ -37,11 +37,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-12.pdf"
             },
             {
                 "title":"Videos",
@@ -64,11 +64,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-11.pdf"
             },
             {
                 "title":"Videos",
@@ -91,11 +91,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-10.pdf"
             },
             {
                 "title":"Videos",
@@ -118,11 +118,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-9.pdf"
             },
             {
                 "title":"Videos",
@@ -145,11 +145,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-8.pdf"
             },
             {
                 "title":"Videos",
@@ -172,11 +172,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-7.pdf"
             },
             {
                 "title":"Videos",
@@ -199,11 +199,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-6.pdf"
             },
             {
                 "title":"Videos",
@@ -226,11 +226,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-5.pdf"
             },
             {
                 "title":"Videos",
@@ -253,11 +253,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-4.pdf"
             },
             {
                 "title":"Videos",
@@ -280,11 +280,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-3.pdf"
             },
             {
                 "title":"Videos",
@@ -307,11 +307,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-2.pdf"
             },
             {
                 "title":"Videos",
@@ -334,11 +334,11 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2024-11-10-1.pdf"
             },
             {
                 "title":"Videos",
