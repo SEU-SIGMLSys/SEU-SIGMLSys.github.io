@@ -1,11 +1,11 @@
 var schedules = [
     {
         "title":"Fast On-device LLM Inference with NPUs",
-        "conf":"ASPLOS 2025",
+        "conf":"ASPLOS'25",
         "presenter":"Changshuo Yao",
         "facilitator":"Chuanyou Li",
-        "date":"November 10, 2024.",
-        "time":"5:10 p.m.",
+        "date":"November 15, 2024.",
+        "time":"9:45 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -27,8 +27,35 @@ var schedules = [
         }
     },
     {
+        "title":"NetLLM: Adapting Large Language Models for Networking",
+        "conf":"SIGCOMM'24",
+        "presenter":"Bin Dong",
+        "facilitator":"Borui Li",
+        "date":"November 15, 2024.",
+        "time":"9:00 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-11-10-11.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://arxiv.org/abs/2402.02338"
+        }
+    },
+    {
         "title":"Keep the Cost Down:A Review on Methods to Optimize LLM's KV Cache Consumption",
-        "conf":"CoLM 2024",
+        "conf":"CoLM'24",
         "presenter":"Yachen Wu",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
@@ -54,35 +81,8 @@ var schedules = [
         }
     },
     {
-        "title":"NetLLM: Adapting Large Language Models for Networking",
-        "conf":"SIGCOMM 2024",
-        "presenter":"Bin Dong",
-        "facilitator":"Borui Li",
-        "date":"November 10, 2024.",
-        "time":"4:20 p.m.",
-        "location":"Room ARTS1021 @ SEU & Online",
-        "links":[
-            {
-                "title":"TencentMeeting",
-                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
-            },
-            {
-                "title":"Slides",
-                "url":"/slides/2024-11-10-11.pdf"
-            },
-            {
-                "title":"Videos",
-                "url":"http://10.201.0.220:8099"
-            }
-        ],
-        "dblp":{
-            "source":"DBLP",
-            "url":"https://arxiv.org/abs/2402.02338"
-        }
-    },
-    {
         "title":"ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference",
-        "conf":"ASPLOS 2024",
+        "conf":"ASPLOS'24",
         "presenter":"Songtao Lu",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -109,7 +109,7 @@ var schedules = [
     },
     {
         "title":"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations",
-        "conf":"COLM 2024",
+        "conf":"COLM'24",
         "presenter":"Fanglei Shu",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -135,8 +135,35 @@ var schedules = [
         }
     },
     {
+        "title":"HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+        "conf":"NeurIPS'23",
+        "presenter":"Xingcai Zhang",
+        "facilitator":"Borui Li",
+        "date":"November 10, 2024.",
+        "time":"2:50 p.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-11-10-8.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://arxiv.org/pdf/2303.17580"
+        }
+    },
+    {
         "title":"Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization",
-        "conf":"ACL 2024",
+        "conf":"ACL'24",
         "presenter":"Xingcai Zhang",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -163,7 +190,7 @@ var schedules = [
     },
     {
         "title":"A Language Agent for Autonomous Driving",
-        "conf":"COLM 2024",
+        "conf":"COLM'24",
         "presenter":"Hangshuai He",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -190,7 +217,7 @@ var schedules = [
     },
     {
         "title":"ChatIoT: Zero-code Generation of Trigger-action Based IoT Programs",
-        "conf":"APNet 2023",
+        "conf":"Ubicomp'24",
         "presenter":"Lili Pan",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -217,7 +244,7 @@ var schedules = [
     },
     {
         "title":"Hairpin: Rethinking Packet Loss Recovery in Edge-based Interactive Video Streaming",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Botai Sun",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
@@ -244,7 +271,7 @@ var schedules = [
     },
     {
         "title":"SLNet: A Spectrogram Learning Neural Network for Deep Wireless Sensing",
-        "conf":"NSDI 2023",
+        "conf":"NSDI'23",
         "presenter":"Yujie Chen",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
@@ -271,7 +298,7 @@ var schedules = [
     },
     {
         "title":"INVAR: Inversion Aware Resource Provisioning and Workload Scheduling for Edge Computing",
-        "conf":"INFOCOM 2024",
+        "conf":"INFOCOM'24",
         "presenter":"Kai Huang",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
@@ -298,7 +325,7 @@ var schedules = [
     },
     {
         "title":"Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving",
-        "conf":"SOSP 2024",
+        "conf":"SOSP'24",
         "presenter":"Minyuan Feng",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -325,7 +352,7 @@ var schedules = [
     },
     {
         "title":"FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices",
-        "conf":"MobiCom 2024",
+        "conf":"MobiCom'24",
         "presenter":"Yuxiang Lu",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
@@ -352,7 +379,7 @@ var schedules = [
     },
     {
         "title":"LitePred: Transferable and Scalable Latency Prediction for Hardware-Aware Neural Architecture Search",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Changshuo Yao",
         "facilitator":"Chuanyou Li",
         "date":"July 25, 2024.",
@@ -379,7 +406,7 @@ var schedules = [
     },
     {
         "title":"CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Botai Sun",
         "facilitator":"Chuanyou Li",
         "date":"July 18, 2024.",
@@ -406,7 +433,7 @@ var schedules = [
     },
     {
         "title":"MadEye: Boosting Live Video Analytics Accuracy with Adaptive Camera Configurations",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Yujie Chen",
         "facilitator":"Chuanyou Li",
         "date":"July 11, 2024.",
@@ -433,7 +460,7 @@ var schedules = [
     },
     {
         "title":"Vulcan: Automatic Query Planning for Live ML Analytics",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Minyuan Feng",
         "facilitator":"Borui Li",
         "date":"July 11, 2024.",
@@ -460,7 +487,7 @@ var schedules = [
     },
     {
         "title":"Accelerating Neural Recommendation Training with Embedding Scheduling",
-        "conf":"NSDI 2024",
+        "conf":"NSDI'24",
         "presenter":"Kai Huang",
         "facilitator":"Chuanyou Li",
         "date":"July 4, 2024.",
