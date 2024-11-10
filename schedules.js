@@ -5,7 +5,7 @@ var schedules = [
         "presenter":"Changshuo Yao",
         "facilitator":"Chuanyou Li",
         "date":"November 15, 2024.",
-        "time":"9:45 a.m.",
+        "time":"9:40 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -59,7 +59,7 @@ var schedules = [
         "presenter":"Yachen Wu",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
-        "time":"4:45 p.m.",
+        "time":"5:30 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -86,7 +86,7 @@ var schedules = [
         "presenter":"Songtao Lu",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"3:55 p.m.",
+        "time":"4:55 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -113,7 +113,7 @@ var schedules = [
         "presenter":"Fanglei Shu",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"3:15 p.m.",
+        "time":"4:20 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -140,7 +140,7 @@ var schedules = [
         "presenter":"Xingcai Zhang",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"2:50 p.m.",
+        "time":"4:00 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -167,7 +167,7 @@ var schedules = [
         "presenter":"Xingcai Zhang",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"2:50 p.m.",
+        "time":"3:45 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -194,7 +194,7 @@ var schedules = [
         "presenter":"Hangshuai He",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"2:25 p.m.",
+        "time":"3:10 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -221,7 +221,7 @@ var schedules = [
         "presenter":"Lili Pan",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"2:00 p.m.",
+        "time":"2:35 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -248,7 +248,7 @@ var schedules = [
         "presenter":"Botai Sun",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
-        "time":"11:05 a.m.",
+        "time":"2:00 p.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -275,7 +275,7 @@ var schedules = [
         "presenter":"Yujie Chen",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
-        "time":"10:40 a.m.",
+        "time":"10:55 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -302,7 +302,7 @@ var schedules = [
         "presenter":"Kai Huang",
         "facilitator":"Chuanyou Li",
         "date":"November 10, 2024.",
-        "time":"10:00 a.m.",
+        "time":"10:20 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -329,7 +329,7 @@ var schedules = [
         "presenter":"Minyuan Feng",
         "facilitator":"Borui Li",
         "date":"November 10, 2024.",
-        "time":"9:35 a.m.",
+        "time":"9:45 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
