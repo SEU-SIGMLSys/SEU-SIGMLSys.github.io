@@ -14,7 +14,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-13.pdf"
+                "url":"/slides/2024-11-15-2.pdf"
             },
             {
                 "title":"Videos",
@@ -41,7 +41,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-11.pdf"
+                "url":"/slides/2024-11-15-1.pdf"
             },
             {
                 "title":"Videos",
@@ -68,7 +68,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-12.pdf"
+                "url":"/slides/2024-11-10-11.pdf"
             },
             {
                 "title":"Videos",
