@@ -10,7 +10,7 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
+                "url":"https://meeting.tencent.com/dm/yehYWE3IKQaM"
             },
             {
                 "title":"Slides",
@@ -37,7 +37,7 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"https://meeting.tencent.com/dm/5y7V5wQ9vMyI"
+                "url":"https://meeting.tencent.com/dm/yehYWE3IKQaM"
             },
             {
                 "title":"Slides",
