@@ -46,7 +46,7 @@
 #### 上传更新至XXX分支 
     git add index.html
     git add schedules.js
-    git add /slides/...
+    git add slides
     git commit -m "update ... schedule"
     git push origin XXX
 #### 在github界面实现pull requests申请，由管理员审批通过后完成merge
