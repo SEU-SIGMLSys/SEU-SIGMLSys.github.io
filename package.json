@@ -1,0 +1,17 @@
+{
+  "name": "seu-sigmlsys.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^10.9.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}

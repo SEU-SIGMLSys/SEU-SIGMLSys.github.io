@@ -1,3 +1,33 @@
+var upcoming_schedules = [
+    {
+        "title":"",
+        "conf":"",
+        "presenter":"Muhan Yuan",
+        "facilitator":"Tiange Xia",
+        "date":"November 22, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":""
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-11-22.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":""
+        }
+    },
+]
+
 var schedules = [
     {
         "title":"Fast On-device LLM Inference with NPUs",
@@ -5,7 +35,7 @@ var schedules = [
         "presenter":"Changshuo Yao",
         "facilitator":"Chuanyou Li",
         "date":"November 15, 2024.",
-        "time":"9:40 a.m.",
+        "time":"10:10 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -32,7 +62,7 @@ var schedules = [
         "presenter":"Bin Dong",
         "facilitator":"Borui Li",
         "date":"November 15, 2024.",
-        "time":"9:00 a.m.",
+        "time":"9:30 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
@@ -512,4 +542,4 @@ var schedules = [
             "url":"https://www.usenix.org/conference/nsdi24/presentation/zeng"
         }
     }
-    ]
+]
