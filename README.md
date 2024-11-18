@@ -92,3 +92,10 @@ windows用户有图形界面可以忽略这一步
 - 最后，在当前页面使用vite并进入浏览器
 
         npx vite # http://localhost:5173/
+
+### (Optional)设置代理
+为了解决git pull/push TimeOut的问题，可以为git设置代理：
+
+        git config --global http.proxy "http://127.0.0.1:10809" 
+        git config --global https.proxy "http://127.0.0.1:10809"
+        git config --global --list #查看配置情况
