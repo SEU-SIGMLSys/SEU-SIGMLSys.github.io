@@ -96,6 +96,6 @@ windows用户有图形界面可以忽略这一步
 ### (Optional)设置代理
 为了解决git pull/push TimeOut的问题，可以为git设置代理：
 
-        git config --global http.proxy "http://127.0.0.1:10809" 
-        git config --global https.proxy "http://127.0.0.1:10809"
+        git config --global http.proxy "http://127.0.0.1:port" 
+        git config --global https.proxy "http://127.0.0.1:port" # 端口设置因人而异
         git config --global --list #查看配置情况
