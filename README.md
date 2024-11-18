@@ -84,18 +84,19 @@ windows用户有图形界面可以忽略这一步
 如果有需要查看修改效果，可以进行本地部署。由于大部分浏览器不允许直接打开index.html，因此需要下载node.js
 - 首先，下载并安装[node.js](https://nodejs.org/zh-cn)
 - 之后进入SEU-SIGMLSys.github.io文件夹，并下载vite
-    
-        cd SEU-SIGMLSys.github.io
-        npm install vite
-        # 若存在网络问题，可使用镜像源：
-        npm config set registry https://registry.npmmirror.com
+
+      cd SEU-SIGMLSys.github.io
+      npm install vite
+      # 若存在网络问题，可使用镜像源：
+      npm config set registry https://registry.npmmirror.com
+
 - 最后，在当前页面使用vite并进入浏览器
 
-        npx vite # http://localhost:5173/
+      npx vite # http://localhost:5173/
 
 ### (Optional)设置代理
 为了解决git pull/push TimeOut的问题，可以为git设置代理：
 
-        git config --global http.proxy "http://127.0.0.1:port" 
-        git config --global https.proxy "http://127.0.0.1:port" # 端口设置因人而异
-        git config --global --list #查看配置情况
+    git config --global http.proxy "http://127.0.0.1:port" 
+    git config --global https.proxy "http://127.0.0.1:port" # 端口设置因人而异
+    git config --global --list #查看配置情况
