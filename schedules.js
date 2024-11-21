@@ -1,16 +1,16 @@
 var upcoming_schedules = [
     {
-        "title":"",
-        "conf":"",
+        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+        "conf":"ACL'24",
         "presenter":"Muhan Yuan",
-        "facilitator":"Tiange Xia",
+        "facilitator":"Lili Pan",
         "date":"November 22, 2024.",
         "time":"9:30 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/COZdhdwGNJuc"
             },
             {
                 "title":"Slides",
@@ -23,7 +23,7 @@ var upcoming_schedules = [
         ],
         "dblp":{
             "source":"DBLP",
-            "url":""
+            "url":"https://arxiv.org/abs/2401.13919"
         }
     },
 ]
