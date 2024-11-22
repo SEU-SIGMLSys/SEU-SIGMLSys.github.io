@@ -14,7 +14,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-22.pdf"
+                "url":"/slides/2024-11-22-ACL'24-WebVoyager.pdf"
             },
             {
                 "title":"Videos",
@@ -44,7 +44,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-15-2.pdf"
+                "url":"/slides/2024-11-15-ASPLOS'25-FODLLM.pdf"
             },
             {
                 "title":"Videos",
@@ -71,7 +71,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-15-1.pdf"
+                "url":"/slides/2024-11-15-SIGCOMM'24-NetLLM.pdf"
             },
             {
                 "title":"Videos",
@@ -98,7 +98,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-11.pdf"
+                "url":"/slides/2024-11-10-CoLM'24-KVCache.pdf"
             },
             {
                 "title":"Videos",
@@ -125,7 +125,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-10.pdf"
+                "url":"/slides/2024-11-10-ASPLOS'24-ExeGPT.pdf"
             },
             {
                 "title":"Videos",
@@ -152,7 +152,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-9.pdf"
+                "url":"/slides/2024-11-10-COLM'24-AutoGen.pdf"
             },
             {
                 "title":"Videos",
@@ -179,7 +179,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-8.pdf"
+                "url":"/slides/2024-11-10-ACL'24-AgentPro.pdf"
             },
             {
                 "title":"Videos",
@@ -206,7 +206,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-8.pdf"
+                "url":"/slides/2024-11-10-ACL'24-AgentPro.pdf"
             },
             {
                 "title":"Videos",
@@ -233,7 +233,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-7.pdf"
+                "url":"/slides/2024-11-10-COLM'24-LAFAD.pdf"
             },
             {
                 "title":"Videos",
@@ -260,7 +260,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-6.pdf"
+                "url":"/slides/2024-11-10-Ubicomp'24-ChatIoT.pdf"
             },
             {
                 "title":"Videos",
@@ -287,7 +287,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-5.pdf"
+                "url":"/slides/2024-11-10-NSDI'24-Hairpin.pdf"
             },
             {
                 "title":"Videos",
@@ -314,7 +314,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-4.pdf"
+                "url":"/slides/2024-11-10-NSDI'23-SLNet.pdf"
             },
             {
                 "title":"Videos",
@@ -341,7 +341,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-3.pdf"
+                "url":"/slides/2024-11-10-INFOCOM'24-INVAR.pdf"
             },
             {
                 "title":"Videos",
@@ -368,7 +368,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-2.pdf"
+                "url":"/slides/2024-11-10-SOSP'24-Apparate.pdf"
             },
             {
                 "title":"Videos",
@@ -395,7 +395,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-11-10-1.pdf"
+                "url":"/slides/2024-11-10-MobiCom'24-FlexNN.pdf"
             },
             {
                 "title":"Videos",
@@ -422,7 +422,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-25.pdf"
+                "url":"/slides/2024-7-25-NSDI'24-LitePred.pdf"
             },
             {
                 "title":"Videos",
@@ -449,7 +449,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-18.pdf"
+                "url":"/slides/2024-7-18-NSDI'24-CASSINI.pdf"
             },
             {
                 "title":"Videos",
@@ -476,7 +476,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-11-2.pdf"
+                "url":"/slides/2024-7-11-NSDI'24-MadEye.pdf"
             },
             {
                 "title":"Videos",
@@ -503,7 +503,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-11-1.pdf"
+                "url":"/slides/2024-7-11-NSDI'24-Vulcan.pdf"
             },
             {
                 "title":"Videos",
@@ -530,7 +530,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-7-4.pdf"
+                "url":"/slides/2024-7-4-NSDI'24-ANRT.pdf"
             },
             {
                 "title":"Videos",

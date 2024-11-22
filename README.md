@@ -6,7 +6,20 @@
     cd SEU-SIGMLSystem.github.io.git
     (or: git pull origin main)
 
+### 更新计划
+
+- 周一前：
+  - 将自己的schedule更新至upcoming_schedules（schedules.js）中（除Slides部分）
+  - 填写在线表格（除pptx部分）
+  - 更新index.html的upcoming
+- 周五后：
+  - 将pptx更新至在线表格
+  - 将pptx转为pdf上传至slides
+  - 将自己的schedule从upcoming_schedules移动至schedules中，并更新Slides部分
+  - Pull Request并通过审核
+
 ### git绑定账户
+
 windows用户有图形界面可以忽略这一步
 
     git config --global user.name "yourname"
@@ -26,6 +39,7 @@ windows用户有图形界面可以忽略这一步
     git branch --set-upstream-to=origin/XXX XXX
 
 ### 修改 schedules.js(schedules以及upcoming_schedules)
+
 将上一周的schedule从upcoming_schedules移动至schedules，并将自己的schedule按以下格式保存至upcoming_schedules：
 
     {
@@ -64,7 +78,7 @@ windows用户有图形界面可以忽略这一步
 
     git add index.html
     git add schedules.js
-    git add slides
+    git add ./slides
     git commit -m "update ... schedule"
     git push origin XXX
 
@@ -81,22 +95,24 @@ windows用户有图形界面可以忽略这一步
     git branch -D xxx
 
 ### (Optional)本地部署
+
 如果有需要查看修改效果，可以进行本地部署。由于大部分浏览器不允许直接打开index.html，因此需要下载node.js
+
 - 首先，下载并安装[node.js](https://nodejs.org/zh-cn)
 - 之后进入SEU-SIGMLSys.github.io文件夹，并下载vite
 
-      cd SEU-SIGMLSys.github.io
-      npm install vite
-      # 若存在网络问题，可使用镜像源：
-      npm config set registry https://registry.npmmirror.com
-
+  cd SEU-SIGMLSys.github.io
+  npm install vite
+  # 若存在网络问题，可使用镜像源：
+  npm config set registry https://registry.npmmirror.com
 - 最后，在当前页面使用vite并进入浏览器
 
-      npx vite # http://localhost:5173/
+  npx vite # http://localhost:5173/
 
 ### (Optional)设置代理
+
 为了解决git pull/push TimeOut的问题，可以为git设置代理：
 
-    git config --global http.proxy "http://127.0.0.1:port" 
+    git config --global http.proxy "http://127.0.0.1:port"
     git config --global https.proxy "http://127.0.0.1:port" # 端口设置因人而异
     git config --global --list #查看配置情况
