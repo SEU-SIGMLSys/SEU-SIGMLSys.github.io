@@ -20,8 +20,6 @@
 
 ### git绑定账户
 
-windows用户有图形界面可以忽略这一步
-
     git config --global user.name "yourname"
     git config --global user.email "youremail"
     # 若需要输入passwd，则需要使用生成的token而不是github密码
