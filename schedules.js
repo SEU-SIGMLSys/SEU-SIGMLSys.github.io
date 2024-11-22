@@ -30,6 +30,33 @@ var upcoming_schedules = [
 
 var schedules = [
     {
+        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+        "conf":"ACL'24",
+        "presenter":"Muhan Yuan",
+        "facilitator":"Lili Pan",
+        "date":"November 22, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"https://meeting.tencent.com/dm/COZdhdwGNJuc"
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-11-22-ACL'24-WebVoyager.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://arxiv.org/abs/2401.13919"
+        }
+    },
+    {
         "title":"Fast On-device LLM Inference with NPUs",
         "conf":"ASPLOS'25",
         "presenter":"Changshuo Yao",
