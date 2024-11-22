@@ -1,6 +1,6 @@
 var upcoming_schedules = [
     {
-        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
+        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Modelstest",
         "conf":"ACL'24",
         "presenter":"Muhan Yuan",
         "facilitator":"Lili Pan",
