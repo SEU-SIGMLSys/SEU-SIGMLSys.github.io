@@ -1,4 +1,8 @@
 var upcoming_schedules = [
+
+]
+
+var schedules = [
     {
         "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",11
         "conf":"ACL'24",
@@ -26,9 +30,6 @@ var upcoming_schedules = [
             "url":"https://arxiv.org/abs/2401.13919"
         }
     },
-]
-
-var schedules = [
     {
         "title":"Fast On-device LLM Inference with NPUs",
         "conf":"ASPLOS'25",
