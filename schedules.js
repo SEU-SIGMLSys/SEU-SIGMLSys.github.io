@@ -1,5 +1,31 @@
 var upcoming_schedules = [
-
+    {
+        "title":"EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning & Voting",
+        "conf":"DAC'24",
+        "presenter":"Tiange Xia",
+        "facilitator":"Weilong Wang, Muhan Yuan",
+        "date":"November 29, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"..."
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-11-29-DAC'24-EDGELLM.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://dl.acm.org/doi/pdf/10.1145/3649329.3658473"
+        }
+    }
 ]
 
 var schedules = [
