@@ -1,4 +1,8 @@
 var upcoming_schedules = [
+
+]
+
+var schedules = [
     {
         "title":"EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning & Voting",
         "conf":"DAC'24",
@@ -10,7 +14,7 @@ var upcoming_schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"..."
+                "url":"https://meeting.tencent.com/dm/T6vST3H5tfBV"
             },
             {
                 "title":"Slides",
@@ -25,10 +29,7 @@ var upcoming_schedules = [
             "source":"DBLP",
             "url":"https://dl.acm.org/doi/pdf/10.1145/3649329.3658473"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",11
         "conf":"ACL'24",
