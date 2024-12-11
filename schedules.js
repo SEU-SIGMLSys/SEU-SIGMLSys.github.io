@@ -10,7 +10,7 @@ var upcoming_schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":
+                "url":""
             },
             {
                 "title":"Slides",
@@ -18,7 +18,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Videos",
-                "url":
+                "url":""
             }
         ],
         "dblp":{
@@ -58,7 +58,7 @@ var schedules = [
         }
     },
     {
-        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",11
+        "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
         "conf":"ACL'24",
         "presenter":"Muhan Yuan",
         "facilitator":"Lili Pan",
