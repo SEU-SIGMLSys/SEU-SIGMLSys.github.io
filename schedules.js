@@ -1,5 +1,31 @@
 var upcoming_schedules = [
-
+    {
+        "title":"Can’t Be Late: Optimizing Spot Instance Savings under Deadlines",
+        "conf":"NSDI'24",
+        "presenter":"Weilong Wang",
+        "facilitator":"Tiange Xia, Chengqing Zhao",
+        "date":"December 13, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-12-13-NSDI'24-SPOTWORK.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://www.usenix.org/system/files/nsdi24-wu-zhanghao.pdf"
+        }
+    }
 ]
 
 var schedules = [
