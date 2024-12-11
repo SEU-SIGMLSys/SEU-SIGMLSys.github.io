@@ -61,7 +61,7 @@ var schedules = [
         "title":"WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models",
         "conf":"ACL'24",
         "presenter":"Muhan Yuan",
-        "facilitator":"Lili Pan",
+        "facilitator":"Lili Pan, Kai Huang",
         "date":"November 22, 2024.",
         "time":"9:30 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
