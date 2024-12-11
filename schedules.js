@@ -10,7 +10,7 @@ var upcoming_schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":
+                "url":""
             },
             {
                 "title":"Slides",
@@ -18,7 +18,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Videos",
-                "url":
+                "url":""
             }
         ],
         "dblp":{
