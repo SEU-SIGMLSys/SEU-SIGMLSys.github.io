@@ -23,7 +23,7 @@ var upcoming_schedules = [
         ],
         "dblp":{
             "source":"DBLP",
-            "url":"https://www.usenix.org/system/files/atc24_slides-fu.pdff"
+            "url":"https://www.usenix.org/system/files/atc24_slides-fu.pdf"
         }
     },
     {
