@@ -25,7 +25,7 @@ var upcoming_schedules = [
             "source":"DBLP",
             "url":"https://www.usenix.org/system/files/atc24_slides-fu.pdff"
         }
-    }
+    },
     {
         "title":"Can’t Be Late: Optimizing Spot Instance Savings under Deadlines",
         "conf":"NSDI'24",
