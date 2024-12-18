@@ -1,10 +1,37 @@
 var upcoming_schedules = [
+     {
+        "title":"Alps: An Adaptive Learning, Priority OS Scheduler for Serverless Function",
+        "conf":"ATC'24",
+        "presenter":"Chengqing Zhao",
+        "facilitator":"Weilong Wang, Tianen Liu",
+        "date":"December 20, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":""
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-12-20-ATC'24-Alps.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":""
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://www.usenix.org/system/files/atc24_slides-fu.pdff"
+        }
+    }
     {
         "title":"Can’t Be Late: Optimizing Spot Instance Savings under Deadlines",
         "conf":"NSDI'24",
         "presenter":"Weilong Wang",
         "facilitator":"Tiange Xia, Chengqing Zhao",
-        "date":"December 13, 2024.",
+        "date":"December 20, 2024.",
         "time":"9:30 a.m.",
         "location":"Room ARTS1021 @ SEU & Online",
         "links":[
