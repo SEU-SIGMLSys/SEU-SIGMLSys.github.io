@@ -1,5 +1,35 @@
 var upcoming_schedules = [
      {
+        "title":"Delta: A Cloud-assisted Data Enrichment Framework for On-Device Continual Learning",
+        "conf":"MobiCom'24",
+        "presenter":"Tianen Liu",
+        "facilitator":"Chengqing Zhao, Jiawei Liu",
+        "date":"December 27, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":""
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-12-27-MobiCom'24-Delta.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":""
+            }
+        ],
+        "dblp":{
+            "source":"ACM Digital Library",
+            "url":"https://dl.acm.org/doi/10.1145/3636534.3690701"
+        }
+    }
+]
+
+var schedules = [
+    {
         "title":"Alps: An Adaptive Learning, Priority OS Scheduler for Serverless Function",
         "conf":"ATC'24",
         "presenter":"Chengqing Zhao",
@@ -52,12 +82,8 @@ var upcoming_schedules = [
             "source":"DBLP",
             "url":"https://www.usenix.org/system/files/nsdi24-wu-zhanghao.pdf"
         }
-    }
-
-]
-
-var schedules = [
-    {
+    },
+     {
         "title":"EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning & Voting",
         "conf":"DAC'24",
         "presenter":"Tiange Xia",
