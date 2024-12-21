@@ -71,7 +71,7 @@ var schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-12-13-NSDI'24-SPOTWORK.pdf"
+                "url":"/slides/2024-12-20-NSDI'24-SPOTWORK.pdf"
             },
             {
                 "title":"Videos",
