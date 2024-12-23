@@ -18,7 +18,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Videos",
-                "url":""
+                "url":"http://10.201.0.220:8099"
             }
         ],
         "dblp":{
@@ -40,7 +40,7 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/nUErptQGpSPL"
             },
             {
                 "title":"Slides",
@@ -48,7 +48,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":""
+                "url":"http://10.201.0.220:8099"
             }
         ],
         "dblp":{
@@ -67,7 +67,7 @@ var schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":""
+                "url":"https://meeting.tencent.com/dm/nUErptQGpSPL"
             },
             {
                 "title":"Slides",
@@ -75,7 +75,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":""
+                "url":"http://10.201.0.220:8099"
             }
         ],
         "dblp":{
