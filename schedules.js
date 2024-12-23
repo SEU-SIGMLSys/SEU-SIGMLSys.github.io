@@ -1,6 +1,6 @@
 var upcoming_schedules = [
      {
-        "title":"Delta: A Cloud-assisted Data Enrichment Framework for On-Device Continual Learning",
+        "title":"Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices",
         "conf":"MobiCom'24",
         "presenter":"Tianen Liu",
         "facilitator":"Chengqing Zhao, Jiawei Liu",
@@ -14,7 +14,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-12-27-MobiCom'24-Delta.pdf"
+                "url":"/slides/2024-12-27-MobiCom'24-Super-Resolution.pdf"
             },
             {
                 "title":"Videos",
@@ -23,7 +23,7 @@ var upcoming_schedules = [
         ],
         "dblp":{
             "source":"ACM Digital Library",
-            "url":"https://dl.acm.org/doi/10.1145/3636534.3690701"
+            "url":"https://dl.acm.org/doi/10.1145/3636534.3690698"
         }
     }
 ]
