@@ -1,5 +1,35 @@
 var upcoming_schedules = [
      {
+        "title":"Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices",
+        "conf":"MobiCom'24",
+        "presenter":"Tianen Liu",
+        "facilitator":"Chengqing Zhao, Jiawei Liu",
+        "date":"December 27, 2024.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":""
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2024-12-27-MobiCom'24-Super-Resolution.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":""
+            }
+        ],
+        "dblp":{
+            "source":"ACM Digital Library",
+            "url":"https://dl.acm.org/doi/10.1145/3636534.3690698"
+        }
+    }
+]
+
+var schedules = [
+    {
         "title":"Alps: An Adaptive Learning, Priority OS Scheduler for Serverless Function",
         "conf":"ATC'24",
         "presenter":"Chengqing Zhao",
@@ -41,7 +71,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Slides",
-                "url":"/slides/2024-12-13-NSDI'24-SPOTWORK.pdf"
+                "url":"/slides/2024-12-20-NSDI'24-SPOTWORK.pdf"
             },
             {
                 "title":"Videos",
@@ -52,12 +82,8 @@ var upcoming_schedules = [
             "source":"DBLP",
             "url":"https://www.usenix.org/system/files/nsdi24-wu-zhanghao.pdf"
         }
-    }
-
-]
-
-var schedules = [
-    {
+    },
+     {
         "title":"EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning & Voting",
         "conf":"DAC'24",
         "presenter":"Tiange Xia",
