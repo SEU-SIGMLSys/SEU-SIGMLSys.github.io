@@ -18,7 +18,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-12-27"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-27"
             }
         ],
         "dblp":{
@@ -48,7 +48,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-12-20-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-2"
             }
         ],
         "dblp":{
@@ -75,7 +75,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-12-20-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-1"
             }
         ],
         "dblp":{
@@ -102,7 +102,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-29"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-29"
             }
         ],
         "dblp":{
@@ -129,7 +129,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-22"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-22"
             }
         ],
         "dblp":{
@@ -156,7 +156,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-15-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-2"
             }
         ],
         "dblp":{
@@ -183,7 +183,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-15-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-1"
             }
         ],
         "dblp":{
@@ -210,7 +210,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-11"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-11"
             }
         ],
         "dblp":{
@@ -237,7 +237,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-10"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-10"
             }
         ],
         "dblp":{
@@ -264,7 +264,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-9"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-9"
             }
         ],
         "dblp":{
@@ -291,7 +291,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-8"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-8"
             }
         ],
         "dblp":{
@@ -318,7 +318,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-8"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-8"
             }
         ],
         "dblp":{
@@ -345,7 +345,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-7"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-7"
             }
         ],
         "dblp":{
@@ -372,7 +372,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-6"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-6"
             }
         ],
         "dblp":{
@@ -399,7 +399,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-5"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-5"
             }
         ],
         "dblp":{
@@ -426,7 +426,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-4"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-4"
             }
         ],
         "dblp":{
@@ -453,7 +453,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-3"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-3"
             }
         ],
         "dblp":{
@@ -480,7 +480,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-2"
             }
         ],
         "dblp":{
@@ -507,7 +507,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-11-10-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-1"
             }
         ],
         "dblp":{
@@ -534,7 +534,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-7-25"
+                "url":"http://10.201.0.220:8099/?meeting=2024-7-25"
             }
         ],
         "dblp":{
@@ -561,7 +561,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-7-18"
+                "url":"http://10.201.0.220:8099/?meeting=2024-7-18"
             }
         ],
         "dblp":{
@@ -588,7 +588,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-7-11-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-7-11-2"
             }
             ],
         "dblp":{
@@ -615,7 +615,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-7-11-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-7-11-1"
             }
         ],
         "dblp":{
@@ -642,7 +642,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/2024-7-4"
+                "url":"http://10.201.0.220:8099/?meeting=2024-7-4"
             }
         ],
         "dblp":{
