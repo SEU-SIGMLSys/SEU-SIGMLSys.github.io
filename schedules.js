@@ -1,4 +1,35 @@
 var upcoming_schedules = [
+     
+]
+
+var schedules = [
+     {
+        "title":"Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems",
+        "conf":"MobiCom'25",
+        "presenter":"Jiawei Liu",
+        "facilitator":"Tianen Liu, Yachen Wu",
+        "date":"January 10, 2025.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"https://meeting.tencent.com/dm/nzkCPK31Bcqx"
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/2025-01-10-MobiCom'25-Modality-Plug-and-Play.pdf"
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099/?meeting=2025-01-10"
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://arxiv.org/pdf/2312.07886"
+        }
+    },
      {
         "title":"Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices",
         "conf":"MobiCom'24",
@@ -25,10 +56,7 @@ var upcoming_schedules = [
             "source":"ACM Digital Library",
             "url":"https://dl.acm.org/doi/10.1145/3636534.3690698"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title":"Alps: An Adaptive Learning, Priority OS Scheduler for Serverless Function",
         "conf":"ATC'24",
