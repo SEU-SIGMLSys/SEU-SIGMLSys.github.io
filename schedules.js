@@ -1,5 +1,31 @@
 var upcoming_schedules = [
-     
+    {
+        "title":"BumbleBee: Dynamic KV-Cache Streaming Submodular Summarization for Infinite-Context Transformers",
+        "conf":"COLM'24",
+        "presenter":"Yachen Wu",
+        "facilitator":"Jiawei Liu, Fanglei Shu",
+        "date":"January 16, 2025.",
+        "time":"9:30 a.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"..."
+            },
+            {
+                "title":"Slides",
+                "url":"/slides/..."
+            },
+            {
+                "title":"Videos",
+                "url":"http://10.201.0.220:8099"
+            }
+        ],
+        "dblp":{
+            "source":"OpenReview",
+            "url":"https://openreview.net/pdf?id=8w0RApM5yG"
+        }
+    },
 ]
 
 var schedules = [
