@@ -1,4 +1,8 @@
 var upcoming_schedules = [
+    
+]
+
+var schedules = [
     {
         "title":"BumbleBee: Dynamic KV-Cache Streaming Submodular Summarization for Infinite-Context Transformers",
         "conf":"COLM'24",
@@ -10,15 +14,15 @@ var upcoming_schedules = [
         "links":[
             {
                 "title":"TencentMeeting",
-                "url":"..."
+                "url":"https://meeting.tencent.com/dm/3higw0fO3laq"
             },
             {
                 "title":"Slides",
-                "url":"/slides/..."
+                "url":"/slides/2025-01-16-COLM'24-BumbleBee.pdf"
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099"
+                "url":"http://10.201.0.220:8099/?meeting=2025-01-16"
             }
         ],
         "dblp":{
@@ -26,9 +30,6 @@ var upcoming_schedules = [
             "url":"https://openreview.net/pdf?id=8w0RApM5yG"
         }
     },
-]
-
-var schedules = [
      {
         "title":"Modality Plug-and-Play: Runtime Modality Adaptation in LLM-Driven Autonomous Mobile Systems",
         "conf":"MobiCom'25",
