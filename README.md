@@ -99,10 +99,10 @@
 - 首先，下载并安装[node.js](https://nodejs.org/zh-cn)
 - 之后进入SEU-SIGMLSys.github.io文件夹，并下载vite
 
-    cd SEU-SIGMLSys.github.io
-    npm install vite
-    # 若存在网络问题，可使用镜像源：
-    npm config set registry https://registry.npmmirror.com
+      cd SEU-SIGMLSys.github.io
+      npm install vite
+      # 若存在网络问题，可使用镜像源：
+      npm config set registry https://registry.npmmirror.com
 
 - 最后，在当前页面使用vite并进入浏览器
 
