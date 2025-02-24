@@ -1,5 +1,31 @@
 var upcoming_schedules = [
-    
+    {
+        "title":"ISOLATEGPT: An Execution Isolation  Architecture for LLM-Based Agentic Systems",
+        "conf":"NDSS'25",
+        "presenter":"Fanglei Shu",
+        "facilitator":"Yachen Wu, Yitao Wang",
+        "date":"February 28, 2025.",
+        "time":"2:30 p.m.",
+        "location":"Room ARTS1021 @ SEU & Online",
+        "links":[
+            {
+                "title":"TencentMeeting",
+                "url":"https://meeting.tencent.com/dm/3higw0fO3laq"
+            },
+            {
+                "title":"Slides",
+                "url":""
+            },
+            {
+                "title":"Videos",
+                "url":""
+            }
+        ],
+        "dblp":{
+            "source":"DBLP",
+            "url":"https://arxiv.org/pdf/2403.04960"
+        }
+    }
 ]
 
 var schedules = [
