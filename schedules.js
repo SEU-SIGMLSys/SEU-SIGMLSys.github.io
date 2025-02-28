@@ -1,4 +1,8 @@
 var upcoming_schedules = [
+
+]
+
+var schedules = [
     {
         "title":"ISOLATEGPT: An Execution Isolation  Architecture for LLM-Based Agentic Systems",
         "conf":"NDSS'25",
@@ -14,7 +18,7 @@ var upcoming_schedules = [
             },
             {
                 "title":"Slides",
-                "url":""
+                "url":"/slides/2025-2-28-NDSS'25-Isolategpt.pdf"
             },
             {
                 "title":"Videos",
@@ -25,10 +29,7 @@ var upcoming_schedules = [
             "source":"DBLP",
             "url":"https://arxiv.org/pdf/2403.04960"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title":"BumbleBee: Dynamic KV-Cache Streaming Submodular Summarization for Infinite-Context Transformers",
         "conf":"COLM'24",
