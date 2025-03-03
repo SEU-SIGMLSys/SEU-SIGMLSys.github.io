@@ -1,7 +1,7 @@
 var upcoming_schedules = [
     {
         "title":"DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
-        "conf":"OSDI'25",
+        "conf":"OSDI'24",
         "presenter":"Yitao Wang",
         "facilitator":"Fanglei Shu, Bing Dong",
         "date":"March 7, 2025.",
