@@ -1,5 +1,31 @@
 var upcoming_schedules = [
-    
+{
+    "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning",
+    "conf": "OSDI'24",
+    "presenter": "Hangshuai He",
+    "facilitator": "Minyuan Feng, Yuxiang Lu",
+    "date": "March 14, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/osdi24-zhai.pdf"
+    }
+}    
 ]
 
 var schedules = [
