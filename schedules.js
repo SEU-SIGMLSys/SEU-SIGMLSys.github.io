@@ -22,7 +22,7 @@ var upcoming_schedules = [
         }
     ],
     "dblp": {
-        "source": "website",
+        "source": "DBLP",
         "url": "https://www.usenix.org/system/files/osdi24-zhai.pdf"
     }
 }    
@@ -48,11 +48,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2025-03-07-1"
+                "url":"http://10.201.0.220:8099/?meeting=2025-03-07-NDSI'24-distserve"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf"
         }
     },
@@ -75,7 +75,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2025-02-28-1"
+                "url":"http://10.201.0.220:8099/?meeting=2025-02-28-NDSS'25-Isolategpt"
             }
         ],
         "dblp":{
@@ -102,11 +102,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2025-01-16-1"
+                "url":"http://10.201.0.220:8099/?meeting=2025-01-16-COLM'24-BumbleBee"
             }
         ],
         "dblp":{
-            "source":"OpenReview",
+            "source":"DBLP",
             "url":"https://openreview.net/pdf?id=8w0RApM5yG"
         }
     },
@@ -129,7 +129,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2025-01-10-1"
+                "url":"http://10.201.0.220:8099/?meeting=2025-01-10-MobiCom'25-Modality-Plug-and-Play"
             }
         ],
         "dblp":{
@@ -156,11 +156,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-12-27-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-27-MobiCom'24-Super-Resolution"
             }
         ],
         "dblp":{
-            "source":"ACM Digital Library",
+            "source":"DBLP",
             "url":"https://dl.acm.org/doi/10.1145/3636534.3690698"
         }
     },
@@ -183,11 +183,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-ATC'24-Alps"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/system/files/atc24-fu.pdf"
         }
     },
@@ -210,11 +210,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-12-20-NSDI'24-SPOTWORK"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/system/files/nsdi24-wu-zhanghao.pdf"
         }
     },
@@ -237,11 +237,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-29-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-29-DAC'24-EDGELLM"
             }
         ],
         "dblp":{
-            "source":"ACM Digital Library",
+            "source":"DBLP",
             "url":"https://dl.acm.org/doi/pdf/10.1145/3649329.3658473"
         }
     },
@@ -264,7 +264,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-22-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-22-ACL'24-WebVoyager"
             }
         ],
         "dblp":{
@@ -291,7 +291,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-ASPLOS'25-FODLLM"
             }
         ],
         "dblp":{
@@ -318,7 +318,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-15-SIGCOMM'24-NetLLM"
             }
         ],
         "dblp":{
@@ -345,7 +345,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-11"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-CoLM'24-KVCache"
             }
         ],
         "dblp":{
@@ -372,7 +372,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-10"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-ASPLOS'24-ExeGPT"
             }
         ],
         "dblp":{
@@ -399,7 +399,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-9"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-COLM'24-AutoGen"
             }
         ],
         "dblp":{
@@ -426,7 +426,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-8"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-ACL'24-AgentPro"
             }
         ],
         "dblp":{
@@ -453,7 +453,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-8"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-ACL'24-AgentPro"
             }
         ],
         "dblp":{
@@ -480,7 +480,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-7"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-COLM'24-LAFAD"
             }
         ],
         "dblp":{
@@ -507,11 +507,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-6"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-Ubicomp'24-ChatIoT"
             }
         ],
         "dblp":{
-            "source":"ACM Digital Library",
+            "source":"DBLP",
             "url":"https://dl.acm.org/doi/abs/10.1145/3678585"
         }
     },
@@ -534,11 +534,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-5"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-NSDI'24-Hairpin"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/meng"
         }
     },
@@ -561,11 +561,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-4"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-NSDI'23-SLNet"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi23/presentation/yang-zheng"
         }
     },
@@ -588,11 +588,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-3"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-INFOCOM'24-INVAR"
             }
         ],
         "dblp":{
-            "source":"IEEE Xplore",
+            "source":"DBLP",
             "url":"https://ieeexplore.ieee.org/document/10621417"
         }
     },
@@ -615,7 +615,7 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-SOSP'24-Apparate"
             }
         ],
         "dblp":{
@@ -642,11 +642,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-11-10-MobiCom'24-FlexNN"
             }
         ],
         "dblp":{
-            "source":"ACM Digital Library",
+            "source":"DBLP",
             "url":"https://dl.acm.org/doi/pdf/10.1145/3636534.3649391"
         }
     },
@@ -669,11 +669,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-07-25-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-07-25-NSDI'24-LitePred"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/feng-chengquan"
         }
     },
@@ -696,11 +696,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-07-18-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-07-18-NSDI'24-CASSINI"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/rajasekaran"
         }
     },
@@ -723,11 +723,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-07-11-2"
+                "url":"http://10.201.0.220:8099/?meeting=2024-07-11-NSDI'24-MadEye"
             }
             ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/wong"
         }
     },
@@ -750,11 +750,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-07-11-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-07-11-NSDI'24-Vulcan"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/zhang-yiwen"
         }
     },
@@ -777,11 +777,11 @@ var schedules = [
             },
             {
                 "title":"Videos",
-                "url":"http://10.201.0.220:8099/?meeting=2024-07-04-1"
+                "url":"http://10.201.0.220:8099/?meeting=2024-07-04-NSDI'24-ANRT"
             }
         ],
         "dblp":{
-            "source":"USENIX",
+            "source":"DBLP",
             "url":"https://www.usenix.org/conference/nsdi24/presentation/zeng"
         }
     }
