@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning",
     "conf": "OSDI'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-03-14-OSDI'24-Enabling.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-03-14-OSDI'24-Enabling",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://www.usenix.org/system/files/osdi24-zhai.pdf"
     }
 }    
-]
-
-var schedules = [
     {
         "title":"DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
         "conf":"OSDI'24",
