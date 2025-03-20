@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "GPTuner: A Manual-Reading Database Tuning System via  GPT-Guided Bayesian Optimization",
+    "conf": "VLDB'24",
+    "presenter": "Yuxiang Lu",
+    "facilitator": "Hangshuai He, Songtao Lu",
+    "date": "March 21, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization"
+    }
+},
 ]
 
 var schedules = [
