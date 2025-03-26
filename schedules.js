@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "GPTuner: A Manual-Reading Database Tuning System via  GPT-Guided Bayesian Optimization",
     "conf": "VLDB'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-03-21-VLDB'24-GPTuner.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-03-21-VLDB'24-GPTuner"
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning",
     "conf": "OSDI'24",
