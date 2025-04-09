@@ -1,4 +1,58 @@
 var upcoming_schedules = [
+{
+    "title": "8-bit Transformer Inference and Fine-tuning for Edge Accelerators",
+    "conf": "ASPLOS'24",
+    "presenter": "Changshuo Yao",
+    "facilitator": "Botai Sun, Kai Huang",
+    "date": "April 11, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3620666.3651368"
+    }
+},
+{
+    "title": "8-bit Transformer Inference and Fine-tuning for Edge Accelerators",
+    "conf": "ASPLOS'24",
+    "presenter": "Changshuo Yao",
+    "facilitator": "Botai Sun, Kai Huang",
+    "date": "April 11, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3620666.3651368"
+    }
+},
 ]
 
 var schedules = [
