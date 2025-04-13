@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "8-bit Transformer Inference and Fine-tuning for Edge Accelerators",
     "conf": "ASPLOS'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-04-11-ASPLOS'24-8bit_Transformer.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-04-11-ASPLOS'24-8bit_Transformer",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://dl.acm.org/doi/10.1145/3620666.3651368"
     }
 },
-]
-
-var schedules = [
 {
     "title": "GPTuner: A Manual-Reading Database Tuning System via  GPT-Guided Bayesian Optimization",
     "conf": "VLDB'24",
