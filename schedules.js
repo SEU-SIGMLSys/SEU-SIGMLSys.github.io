@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances",
+    "conf": "NSDI'24",
+    "presenter": "Yujie Chen",
+    "facilitator": "Botai Sun, Xingcai Zhang",
+    "date": "April 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/nsdi24-duan.pdf"
+    }
+},
 ]
 
 var schedules = [
