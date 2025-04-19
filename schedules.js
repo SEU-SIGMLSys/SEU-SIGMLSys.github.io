@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances",
     "conf": "NSDI'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-04-18-NSDI'24-Parcae.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-04-18-NSDI'24-Parcae",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://www.usenix.org/system/files/nsdi24-duan.pdf"
     }
 },
-]
-
-var schedules = [
 {
     "title": "8-bit Transformer Inference and Fine-tuning for Edge Accelerators",
     "conf": "ASPLOS'24",
