@@ -23,7 +23,7 @@ var upcoming_schedules = [
     ],
     "dblp": {
         "source": "website",
-        "url": "https://proceedings.mlr.press/v235/abhyankar24a.html <https://proceedings.neurips.cc/paper_files/paper/2023/file/44956951349095f74492a5471128a7e0-Paper-Conference.pdf>"
+        "url": "https://arxiv.org/pdf/2402.01869"
     }
 },
 {
