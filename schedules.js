@@ -1,7 +1,7 @@
 var upcoming_schedules = [
 {
     "title": "INFERCEPT:Efficient Intercept Support for Augmented Large Language Model Inference",
-    "conf": "ICML 2024",
+    "conf": "ICML'24",
     "presenter": "Zikang Chen",
     "facilitator": "Yuankun Feng, Zikang Chen",
     "date": "April 25,2025",
@@ -28,7 +28,7 @@ var upcoming_schedules = [
 },
 {
     "title": "LLM-Pruner: On the Structural Pruning of Large Language Models",
-    "conf": "NeurIPS 2023",
+    "conf": "NeurIPS'23",
     "presenter": "Yuankun Feng",
     "facilitator": "Yuankun Feng, Zikang Chen",
     "date": "April 25,2025",
