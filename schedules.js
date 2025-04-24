@@ -1,4 +1,58 @@
 var upcoming_schedules = [
+{
+    "title": "INFERCEPT:Efficient Intercept Support for Augmented Large Language Model Inference",
+    "conf": "ICML 2024",
+    "presenter": "Zikang Chen",
+    "facilitator": "Yuankun Feng, Zikang Chen",
+    "date": "April 25,2025",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://proceedings.mlr.press/v235/abhyankar24a.html <https://proceedings.neurips.cc/paper_files/paper/2023/file/44956951349095f74492a5471128a7e0-Paper-Conference.pdf>"
+    }
+},
+{
+    "title": "LLM-Pruner: On the Structural Pruning of Large Language Models",
+    "conf": "NeurIPS 2023",
+    "presenter": "Yuankun Feng",
+    "facilitator": "Yuankun Feng, Zikang Chen",
+    "date": "April 25,2025",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/44956951349095f74492a5471128a7e0-Paper-Conference.pdf"
+    }
+},
 ]
 
 var schedules = [
