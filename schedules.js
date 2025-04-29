@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "INFERCEPT:Efficient Intercept Support for Augmented Large Language Model Inference",
     "conf": "ICML'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-04-25-ICML'24-INFERCEPT.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-04-25-ICML'24-INFERCEPT"
         }
     ],
     "dblp": {
@@ -41,11 +44,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-04-25-NeurIPS'23-LLM-Pruner.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-04-25-NeurIPS'23-LLM-Pruner"
         }
     ],
     "dblp": {
@@ -53,9 +56,6 @@ var upcoming_schedules = [
         "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/44956951349095f74492a5471128a7e0-Paper-Conference.pdf"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances",
     "conf": "NSDI'24",
