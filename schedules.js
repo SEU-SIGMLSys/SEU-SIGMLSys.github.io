@@ -1,4 +1,85 @@
 var upcoming_schedules = [
+{
+    "title": "Characterization of Large Language Model Development in theDatacenter",
+    "conf": "NSDI'24",
+    "presenter": "Zhaonian Wang",
+    "facilitator": "Chuanhua Fan, Jinhan Xin, Zhaonian Wang",
+    "date": "May 9, 2025",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/nsdi24-hu.pdf"
+    }
+},
+{
+    "title": "From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions",
+    "conf": "ICLR'25",
+    "presenter": "Jinhan Xin",
+    "facilitator": "Chuanhua Fan, Jinhan Xin, Zhaonian Wang",
+    "date": "May 9, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2410.08197"
+    }
+},
+{
+    "title": "Autothrottle: A Practical Bi-Level Approach to Resource Management for SLO-Targeted Microservices",
+    "conf": "NSDI'24",
+    "presenter": "Chuanhua Fan",
+    "facilitator": "Chuanhua Fan, Jinhan Xin, Zhaonian Wang",
+    "date": "May 9, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf"
+    }
+},
 ]
 
 var schedules = [
