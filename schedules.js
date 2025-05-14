@@ -17,11 +17,11 @@ var schedules = [
         },
         {
             "title": "Slides",
-            "url": "/slides/2025-05-09-NDSI'24-Characterization_of_LLM.pdf"
+            "url": "/slides/2025-05-09-NSDI'24-Characterization_of_LLM.pdf"
         },
         {
             "title": "Videos",
-            "url": "http://10.201.0.220:8099/?meeting=2025-05-09-NDSI'24-Characterization_of_LLM"
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-09-NSDI'24-Characterization_of_LLM"
         }
     ],
     "dblp": {
