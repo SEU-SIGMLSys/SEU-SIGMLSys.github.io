@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Characterization of Large Language Model Development in theDatacenter",
     "conf": "NSDI'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-09-NDSI'24-Characterization_of_LLM.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-09-NDSI'24-Characterization_of_LLM"
         }
     ],
     "dblp": {
@@ -41,11 +44,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-09-ICLR'25-From_Exploration_to_Mastery.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-09-ICLR'25-From_Exploration_to_Mastery"
         }
     ],
     "dblp": {
@@ -68,21 +71,18 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-09-NSDI'24-Autothrottle.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-09-NSDI'24-Autothrottle"
         }
     ],
     "dblp": {
         "source": "website",
-        "url": "https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf"
+        "url": "https://www.usenix.org/system/files/nsdi24-wang-zibo.pdf"
     }
 },
-]
-
-var schedules = [
 {
     "title": "INFERCEPT:Efficient Intercept Support for Augmented Large Language Model Inference",
     "conf": "ICML'24",
