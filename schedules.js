@@ -1,4 +1,58 @@
 var upcoming_schedules = [
+{
+    "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
+    "conf": "SOSP'24",
+    "presenter": "Yifan Hu",
+    "facilitator": "Yunpeng Xu, Yifan Hu",
+    "date": "May 16, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2404.09526v2"
+    }
+},
+{
+    "title": "Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling",
+    "conf": "ASPLOS'24",
+    "presenter": "Yunpeng Xu",
+    "facilitator": "Yunpeng Xu, Yifan Hu",
+    "date": "May 16, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2023/09/ljWiUS-asplos24spring-final29.pdf"
+    }
+},
 ]
 
 var schedules = [
