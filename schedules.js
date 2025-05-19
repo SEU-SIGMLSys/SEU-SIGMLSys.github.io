@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
     "conf": "SOSP'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-16-SOSP'24-LoongServe.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-16-SOSP'24-LoongServe"
         }
     ],
     "dblp": {
@@ -41,11 +44,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-16-ASPLOS'24-Proteus.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-16-ASPLOS'24-Proteus"
         }
     ],
     "dblp": {
@@ -53,9 +56,6 @@ var upcoming_schedules = [
         "url": "https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2023/09/ljWiUS-asplos24spring-final29.pdf"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Characterization of Large Language Model Development in theDatacenter",
     "conf": "NSDI'24",
