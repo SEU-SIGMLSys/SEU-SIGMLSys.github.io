@@ -1,4 +1,58 @@
 var upcoming_schedules = [
+{
+    "title": "CA-LoRA: Adapting Existing LoRA for Compressed LLMs to Enable Efficient Multi-Tasking on Personal Devices",
+    "conf": "COLM'24",
+    "presenter": "Junan Lu",
+    "facilitator": "Yi Liu, Junan Lu",
+    "date": "May 23, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "http://arxiv.org/pdf/2307.07705v3"
+    }
+},
+{
+    "title": "SpotServe: Serving Generative Large Language Models on Preemptible Instances",
+    "conf": "ASPLOS'24",
+    "presenter": "Yi Liu",
+    "facilitator": "Yi Liu, Junan Lu",
+    "date": "May 23, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2311.15566"
+    }
+},
 ]
 
 var schedules = [
