@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "CA-LoRA: Adapting Existing LoRA for Compressed LLMs to Enable Efficient Multi-Tasking on Personal Devices",
     "conf": "COLM'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-23-COLM'24-CA-LoRA.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-23-COLM'24-CA-LoRA"
         }
     ],
     "dblp": {
@@ -41,11 +44,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-23-ASPLOS'24-SpotServe.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-23-ASPLOS'24-SpotServe"
         }
     ],
     "dblp": {
@@ -53,9 +56,6 @@ var upcoming_schedules = [
         "url": "https://arxiv.org/pdf/2311.15566"
     }
 },
-]
-
-var schedules = [
 {
     "title": "LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism",
     "conf": "SOSP'24",
