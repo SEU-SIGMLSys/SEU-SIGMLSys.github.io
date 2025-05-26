@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale  Large Language Model Training with Scalability and Precision",
+    "conf": "NSDI'25",
+    "presenter": "Botai Sun",
+    "facilitator": "Yujie Cheng, Changshuo Yao",
+    "date": "May 30, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/nsdi25-wang-xizheng-simai.pdf"
+    }
+},
 ]
 
 var schedules = [
