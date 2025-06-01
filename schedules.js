@@ -1,9 +1,12 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale  Large Language Model Training with Scalability and Precision",
     "conf": "NSDI'25",
     "presenter": "Botai Sun",
-    "facilitator": "Yujie Cheng, Changshuo Yao",
+    "facilitator": "Yujie Chen, Changshuo Yao",
     "date": "May 30, 2025.",
     "time": "2:00 p.m.",
     "location": "Room ARTS1021 @ SEU & Online",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-05-30-NDSI'25-SimAI.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-05-30-NDSI'25-SimAI",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://www.usenix.org/system/files/nsdi25-wang-xizheng-simai.pdf"
     }
 },
-]
-
-var schedules = [
 {
     "title": "CA-LoRA: Adapting Existing LoRA for Compressed LLMs to Enable Efficient Multi-Tasking on Personal Devices",
     "conf": "COLM'24",
