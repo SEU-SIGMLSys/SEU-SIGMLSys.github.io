@@ -6,7 +6,7 @@ var schedules = [
     "title": "SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale  Large Language Model Training with Scalability and Precision",
     "conf": "NSDI'25",
     "presenter": "Botai Sun",
-    "facilitator": "Yujie Cheng, Changshuo Yao",
+    "facilitator": "Yujie Chen, Changshuo Yao",
     "date": "May 30, 2025.",
     "time": "2:00 p.m.",
     "location": "Room ARTS1021 @ SEU & Online",
