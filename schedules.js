@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Punica: Multi-Tenant LoRA Serving",
     "conf": "MLSys'24",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-06-06-MLSys'24-Punica.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-06-06-MLSys'24-Punica",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "http://arxiv.org/pdf/2310.18547v1"
     }
 },
-]
-
-var schedules = [
 {
     "title": "SimAI: Unifying Architecture Design and Performance Tuning for Large-Scale  Large Language Model Training with Scalability and Precision",
     "conf": "NSDI'25",
