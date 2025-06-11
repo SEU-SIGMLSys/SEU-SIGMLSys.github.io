@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "TaskSense: A Translation-like Approach for Tasking HeterogeneousSensor Systems with LLMs",
+    "conf": "SenSys'25",
+    "presenter": "Bing Dong",
+    "facilitator": "Yitao Wang, Xingcai Zhang",
+    "date": "June 13, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/qvug5ylXPFkh"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3715014.3722070"
+    }
+},
 ]
 
 var schedules = [
