@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "TaskSense: A Translation-like Approach for Tasking HeterogeneousSensor Systems with LLMs",
     "conf": "SenSys'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-06-13-SenSys'25-TaskSense.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-06-13-SenSys'25-TaskSense",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://dl.acm.org/doi/pdf/10.1145/3715014.3722070"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Punica: Multi-Tenant LoRA Serving",
     "conf": "MLSys'24",
