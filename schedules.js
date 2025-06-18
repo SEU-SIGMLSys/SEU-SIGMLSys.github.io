@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "Optimizing generative AI by backpropagating language model feedback",
+    "conf": "Nature'25",
+    "presenter": "Xingcai Zhang",
+    "facilitator": "Yujie Chen, Bing Dong",
+    "date": "JUNE 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/qvug5ylXPFkh"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.nature.com/articles/s41586-025-08661-4"
+    }
+},
 ]
 
 var schedules = [
