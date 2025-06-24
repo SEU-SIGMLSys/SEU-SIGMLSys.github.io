@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Optimizing generative AI by backpropagating language model feedback",
     "conf": "Nature'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-06-20-Nature'25-TextGrad.pptx",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-06-20-Nature'25-TextGrad",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://www.nature.com/articles/s41586-025-08661-4"
     }
 },
-]
-
-var schedules = [
 {
     "title": "TaskSense: A Translation-like Approach for Tasking HeterogeneousSensor Systems with LLMs",
     "conf": "SenSys'25",
