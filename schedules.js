@@ -17,7 +17,7 @@ var schedules = [
         },
         {
             "title": "Slides",
-            "url": "/slides/2025-06-20-Nature'25-TextGrad.pptx",
+            "url": "/slides/2025-06-20-Nature'25-TextGrad.pdf",
         },
         {
             "title": "Videos",
