@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+    "conf": "SENSYS'25",
+    "presenter": "Lili Pan",
+    "facilitator": "Kai Huang, Haoran Ma",
+    "date": "JUNE 27, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/qvug5ylXPFkh"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3715014.3722064"
+    }
+},
 ]
 
 var schedules = [
