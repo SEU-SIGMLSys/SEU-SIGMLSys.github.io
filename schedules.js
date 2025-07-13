@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "MobiSys'25 - ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality",
+    "conf": "MobiSys'25",
+    "presenter": "Haoran Ma",
+    "facilitator": "Lili Pan, Minyuan Feng",
+    "date": "July 11, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/ARIA.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=ARIA",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://mobed.yonsei.ac.kr/mobed_pages/pdf/aria-mobisys25.pdf"
+    }
+},
+{
     "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
     "conf": "SENSYS'25",
     "presenter": "Lili Pan",
