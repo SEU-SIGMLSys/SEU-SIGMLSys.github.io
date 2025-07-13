@@ -3,7 +3,7 @@ var upcoming_schedules = [
 
 var schedules = [
 {
-    "title": "MobiSys'25 - ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality",
+    "title": "ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality",
     "conf": "MobiSys'25",
     "presenter": "Haoran Ma",
     "facilitator": "Lili Pan, Minyuan Feng",
