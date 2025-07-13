@@ -17,11 +17,11 @@ var schedules = [
         },
         {
             "title": "Slides",
-            "url": "/slides/ARIA.pdf",
+            "url": "/slides/2025-07-11-MobiSys'25-ARIA.pdf",
         },
         {
             "title": "Videos",
-            "url": "http://10.201.0.220:8099/?meeting=ARIA",
+            "url": "http://10.201.0.220:8099/?meeting=2025-07-11-MobiSys'25-ARIA",
         }
     ],
     "dblp": {
