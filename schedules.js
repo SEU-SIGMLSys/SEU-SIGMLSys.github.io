@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "A Workload-Aware DVFS Robust to Concurrent Tasks for Mobile Devices",
+    "conf": "MOBICOM'23",
+    "presenter": "Minyuan Feng",
+    "facilitator": "Haoran Ma, Hangshuai He",
+    "date": "July 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3570361.3592524"
+    }
+},
 ]
 
 var schedules = [
