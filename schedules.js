@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "A Workload-Aware DVFS Robust to Concurrent Tasks for Mobile Devices",
     "conf": "MOBICOM'23",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-07-18-MOBICOM'23-Gear.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-07-18-MOBICOM'23-Gear",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://dl.acm.org/doi/pdf/10.1145/3570361.3592524"
     }
 },
-]
-
-var schedules = [
 {
     "title": "ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality",
     "conf": "MobiSys'25",
