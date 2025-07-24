@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "CogSys: Efficient and Scalable Neurosymbolic Cognition System via Algorithm-Hardware Co-Design",
+    "conf": "HPCA'25",
+    "presenter": "Qingyang Song",
+    "facilitator": "Qingyang Song",
+    "date": "July 25, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/KkDxEzDhDn34"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2503.01162"
+    }
+},
 ]
 
 var schedules = [
