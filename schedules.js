@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "CogSys: Efficient and Scalable Neurosymbolic Cognition System via Algorithm-Hardware Co-Design",
     "conf": "HPCA'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-07-25-HPCA'25-CogSys.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-07-25-HPCA'25-CogSys",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://arxiv.org/pdf/2503.01162"
     }
 },
-]
-
-var schedules = [
 {
     "title": "A Workload-Aware DVFS Robust to Concurrent Tasks for Mobile Devices",
     "conf": "MOBICOM'23",
