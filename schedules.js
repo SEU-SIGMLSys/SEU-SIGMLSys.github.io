@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "conf": "ICML'25",
+    "presenter": "Muhan Yuan",
+    "facilitator": "Muhan Yuan",
+    "date": "September 4, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/GWm1Xp6OtLOM"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-04-ICML'25-Revisiting_Chain_of_Thou.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-04-ICML'25-Revisiting_Chain_of_Thou",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/abs/2201.11903"
+    }
+},
+{
     "title": "CogSys: Efficient and Scalable Neurosymbolic Cognition System via Algorithm-Hardware Co-Design",
     "conf": "HPCA'25",
     "presenter": "Qingyang Song",
