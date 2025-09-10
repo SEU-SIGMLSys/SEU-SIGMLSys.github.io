@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
+    "conf": "DAC'25",
+    "presenter": "Changshuo Yao",
+    "facilitator": "Muhan Yuan, Hangshuai He",
+    "date": "September 11, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/GWm1Xp6OtLOM"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2504.05897"
+    }
+},
 ]
 
 var schedules = [
