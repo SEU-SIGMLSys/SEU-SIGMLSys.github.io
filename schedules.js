@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
     "conf": "DAC'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-09-12-DAC'25-HybriMoE.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-12-DAC'25-HybriMoE",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://arxiv.org/pdf/2504.05897"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
     "conf": "ICML'25",
