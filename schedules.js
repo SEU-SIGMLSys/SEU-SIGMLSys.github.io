@@ -3,6 +3,573 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "White-Boxing RDMA with Packet-Granular Software Control",
+    "conf": "NSDI'25",
+    "presenter": "Kai Huang",
+    "facilitator": "Yujie Chen",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-NSDI'25-SCR.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-NSDI'25-SCR",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.5555/3767955.3767978"
+    }
+},
+{
+    "title": "AutoCCL: Automated Collective Communication Tuning for Accelerating Distributed and Parallel DNN Training",
+    "conf": "NSDI'25",
+    "presenter": "Yujie Chen",
+    "facilitator": "Yujie Chen",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-NSDI'25-AutoCCL.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-NSDI'25-AutoCCL",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/xu-guanbin"
+    }
+},
+{
+    "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+    "conf": "ICML'25",
+    "presenter": "Zhaonian Wang",
+    "facilitator": "Yitao Wang",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-ICML'25-rStar-Math.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-ICML'25-rStar-Math",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2501.04519"
+    }
+},
+{
+    "title": "Diffusion Language Model",
+    "conf": "None",
+    "presenter": "Zikang Chen",
+    "facilitator": "Yitao Wang",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-Diffuison-Language-Model.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-Diffuison-Language-Model",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": ""
+    }
+},
+{
+    "title": "Memory OS of AI Agent",
+    "conf": "EMNLP'25",
+    "presenter": "Haoran Ma",
+    "facilitator": "Yitao Wang",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-EMNLP'25-MemoryOS.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-EMNLP'25-MemoryOS",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2506.06326"
+    }
+},
+{
+    "title": "Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First",
+    "conf": "SAA'25",
+    "presenter": "Fanglei Shu",
+    "facilitator": "Yitao Wang",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-SAA'25-DataSystems.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-SAA'25-DataSystems",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2509.00997"
+    }
+},
+{
+    "title": "Memp: Exploring Agent Procedural Memory",
+    "conf": "arXiv'25",
+    "presenter": "Yitao Wang",
+    "facilitator": "Yitao Wang",
+    "date": "September 20, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/jnCsoetqEZTS"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-arXiv'25-Memp.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-arXiv'25-Memp",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2508.06433"
+    }
+},
+{
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "conf": "Google DeepMind",
+    "presenter": "Lili Pan",
+    "facilitator": "Jiawei Liu",
+    "date": "September 20, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/LeQ6QPRSYeFJ"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-Google'25-AlphaEvolve.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-Google'25-AlphaEvolve",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2506.13131"
+    }
+},
+{
+    "title": "RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents",
+    "conf": "NeurIPS'24",
+    "presenter": "Xingcai Zhang",
+    "facilitator": "Jiawei Liu",
+    "date": "September 20, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/LeQ6QPRSYeFJ"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-NeurIPS'24-RAP.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-NeurIPS'24-RAP",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2402.03610"
+    }
+},
+{
+    "title": "CMT: A Memory Compression Method for Continual Knowledge Learning of Large Language Models",
+    "conf": "AAAI'25",
+    "presenter": "Jiawei Liu",
+    "facilitator": "Jiawei Liu",
+    "date": "September 20, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/LeQ6QPRSYeFJ"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-20-AAAI'25-CMT.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-20-AAAI'25-CMT",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2412.07393"
+    }
+},
+{
+    "title": "Optimizing Large Language Model Training Using FP4 Quantization",
+    "conf": "ICML'25",
+    "presenter": "Yifan Hu",
+    "facilitator": "Botai Sun",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-ICML'25-FP4.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-ICML'25-FP4",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2501.17116"
+    }
+},
+{
+    "title": "D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving",
+    "conf": "MobiCom'25",
+    "presenter": "Yunpeng Xu",
+    "facilitator": "Botai Sun",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-Mobicom'25-D2MoE.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-Mobicom'25-D2MoE",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2504.15299"
+    }
+},
+{
+    "title": "Nazar: Monitoring and Adapting ML Models on Mobile Devices",
+    "conf": "ASPLOS'25",
+    "presenter": "Botai Sun",
+    "facilitator": "Botai Sun",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-ASPLOS'25-Nazar.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-ASPLOS'25-Nazar",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3669940.3707246"
+    }
+},
+{
+    "title": "AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML",
+    "conf": "ICML'25",
+    "presenter": "Jinhan Xin",
+    "facilitator": "Weilong Wang",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-ICML'25-AutoML-Agent.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-ICML'25-AutoML-Agent",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2410.02958"
+    }
+},
+{
+    "title": "Bayesian Code Diffusion for Efficient Automatic Deep Learning Program Optimization",
+    "conf": "OSDI'25",
+    "presenter": "Hangshuai He",
+    "facilitator": "Weilong Wang",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-OSDI'25-Bayesian.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-OSDI'25-Bayesian",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.5555/3767901.3767918"
+    }
+},
+{
+    "title": "AutoMMLab: Automatically Generating Deployable Models from Language Instructions for Computer Vision Tasks",
+    "conf": "AAAI'25",
+    "presenter": "Weilong Wang",
+    "facilitator": "Weilong Wang",
+    "date": "September 18, 2025.",
+    "time": "2:00 p.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/oNQQ3Km2a61K"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-AAAI'25-AutoMMLab.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-AAAI'25-AutoMMLab",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2402.15351"
+    }
+},
+{
+    "title": "Adda: Towards Efficient in-Database Feature Generation via LLM-based Agents",
+    "conf": "SIGMOD'25",
+    "presenter": "Qingyang Song",
+    "facilitator": "Tianen Liu",
+    "date": "September 18, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/EVNnZ9FYEeG8"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-SIGMOD'25-Adda.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-SIGMOD'25-Adda",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3725262"
+    }
+},
+{
+    "title": "E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model",
+    "conf": "VLDB'25",
+    "presenter": "Yuxiang Lu",
+    "facilitator": "Tianen Liu",
+    "date": "September 18, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/EVNnZ9FYEeG8"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-VLDB'25-E2ETune.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-VLDB'25-E2ETune",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2404.11581"
+    }
+},
+{
+    "title": "Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework",
+    "conf": "SIGCOMM'25",
+    "presenter": "Minyuan Feng",
+    "facilitator": "Tianen Liu",
+    "date": "September 18, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/EVNnZ9FYEeG8"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-SIGCOMM'25-Confucius.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-SIGCOMM'25-Confucius",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3718958.3750537"
+    }
+},
+{
+    "title": "𝜆-Tune: Harnessing Large Language Models for Automated Database System Tuning",
+    "conf": "SIGMOD'25",
+    "presenter": "Bin Dong",
+    "facilitator": "Tianen Liu",
+    "date": "September 18, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/EVNnZ9FYEeG8"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-SIGMOD'25-lambda-Tune.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-SIGMOD'25-lambda-Tune",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3709652"
+    }
+},
+{
+    "title": "ConfigBot: Adaptive Resource Allocation for Robot Applications in Dynamic Environments",
+    "conf": "IROS'25",
+    "presenter": "Tianen Liu",
+    "facilitator": "Tianen Liu",
+    "date": "September 18, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/EVNnZ9FYEeG8"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-09-18-IROS'25-ConfigBot.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-09-18-IROS'25-ConfigBot",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2501.10513"
+    }
+},
+{
     "title": "HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference",
     "conf": "DAC'25",
     "presenter": "Changshuo Yao",
