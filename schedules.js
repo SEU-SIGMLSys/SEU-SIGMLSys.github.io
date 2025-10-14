@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "Unlocking ECMP Programmability for Precise Traffic Control",
+    "conf": "NSDI'25",
+    "presenter": "Junan Lu",
+    "facilitator": "Yujie Chen",
+    "date": "October 13, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-10-13-NSDI'25-ECMP_Program.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-10-13-NSDI'25-ECMP_Program",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/conference/nsdi25/presentation/liu-yadong"
+    }
+},
+{
     "title": "White-Boxing RDMA with Packet-Granular Software Control",
     "conf": "NSDI'25",
     "presenter": "Kai Huang",
