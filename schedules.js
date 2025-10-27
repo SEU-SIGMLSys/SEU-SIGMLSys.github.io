@@ -3,6 +3,60 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training",
+    "conf": "OSDI'25",
+    "presenter": "Yi Liu",
+    "facilitator": "Yi Liu",
+    "date": "October 27, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-10-27-OSDI'25-WLB_LLM.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-10-27-OSDI'25-WLB_LLM",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2503.17924"
+    }
+},
+{
+    "title": "Ubiquitous memory augmentation via mobile multimodal embedding system",
+    "conf": "Nature'25",
+    "presenter": "Yuankun Feng",
+    "facilitator": "Yuankun Feng",
+    "date": "October 20, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-10-20-NatureComm'25-Reminisce.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-10-20-NatureComm'25-Reminisce",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.nature.com/articles/s41467-025-60802-5"
+    }
+},
+{
     "title": "Unlocking ECMP Programmability for Precise Traffic Control",
     "conf": "NSDI'25",
     "presenter": "Junan Lu",
