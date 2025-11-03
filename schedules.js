@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation",
+    "conf": "MobiSys'25",
+    "presenter": "Chuanhua Fan",
+    "facilitator": "Chuanhua Fan",
+    "date": "November 3, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-11-03-MobiSys'25-AutoDroid-V2.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-11-03-MobiSys'25-AutoDroid-V2",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2412.18116"
+    }
+},
+{
     "title": "WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training",
     "conf": "OSDI'25",
     "presenter": "Yi Liu",
