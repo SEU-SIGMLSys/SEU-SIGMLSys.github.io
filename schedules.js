@@ -1,7 +1,61 @@
 var upcoming_schedules = [
+{
+    "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
+    "conf": "NSDI'26",
+    "presenter": "Tianen Liu",
+    "facilitator": "Tianen Liu",
+    "date": "November 17, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "",
+        },
+        {
+            "title": "Videos",
+            "url": "",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2505.00254"
+    }
+},
 ]
 
 var schedules = [
+{
+    "title": "ReLoop: A Self-Correction Continual Learning Loop for Recommender Systems",
+    "conf": "SIGIR'22",
+    "presenter": "Lingfei Xu",
+    "facilitator": "Lingfei Xu",
+    "date": "November 10, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-11-10-SIGIR'22-ReLoop.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-11-10-SIGIR'22-ReLoop",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2204.11165"
+    }
+},
 {
     "title": "AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation",
     "conf": "MobiSys'25",
