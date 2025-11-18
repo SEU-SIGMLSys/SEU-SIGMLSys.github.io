@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
     "conf": "NSDI'26",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": "",
+            "url": "/slides/2025-11-17-NSDI'26-AVA.pdf",
         },
         {
             "title": "Videos",
-            "url": "",
+            "url": "http://10.201.0.220:8099/?meeting=2025-11-17-NSDI'26-AVA",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://arxiv.org/pdf/2505.00254"
     }
 },
-]
-
-var schedules = [
 {
     "title": "ReLoop: A Self-Correction Continual Learning Loop for Recommender Systems",
     "conf": "SIGIR'22",
