@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
+    "conf": "ASPLOS'25",
+    "presenter": "Weilong Wang",
+    "facilitator": "Tianen Liu, Chengqing Zhao",
+    "date": " November 24, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3676641.3716269"
+    }
+},
 ]
 
 var schedules = [
