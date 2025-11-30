@@ -1,10 +1,10 @@
 var upcoming_schedules = [
 {
-    "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
-    "conf": "ASPLOS'25",
-    "presenter": "Weilong Wang",
-    "facilitator": "Tianen Liu, Chengqing Zhao",
-    "date": " November 24, 2025.",
+    "title": "Multi-Turn Code Generation Through Single-Step Rewards",
+    "conf": "ICML'25",
+    "presenter": "Muhan Yuan",
+    "facilitator": "Kai Huang, Yuxiang Lu",
+    "date": "December 1, 2025. ",
     "time": "9:30 a.m.",
     "location": "Room ARTS1021 @ SEU & Online",
     "links": [
@@ -23,12 +23,39 @@ var upcoming_schedules = [
     ],
     "dblp": {
         "source": "website",
-        "url": "https://dl.acm.org/doi/abs/10.1145/3676641.3716269"
+        "url": "https://openreview.net/pdf?id=aJeLhLcsh0"
     }
 },
 ]
 
 var schedules = [
+{
+    "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
+    "conf": "ASPLOS'25",
+    "presenter": "Weilong Wang",
+    "facilitator": "Tianen Liu, Chengqing Zhao",
+    "date": "November 24, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-11-24-ASPLOS'25-Pruner.pdf"
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-11-24-ASPLOS'25-Pruner"
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3676641.3716269"
+    }
+},
 {
     "title": "AVA: Towards Agentic Video Analytics with Vision Language Models",
     "conf": "NSDI'26",
