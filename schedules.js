@@ -1,5 +1,35 @@
 var upcoming_schedules = [
 {
+    "title": "Fork: A Dual Congestion Control Loop for Small and  Large Flows in Datacenters",
+    "conf": "EuroSys'25",
+    "presenter": "Kai Huang",
+    "facilitator": "Muhan Yuan, Yuxiang Lu",
+    "date": "December 8, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/qvug5ylXPFkh"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3689031.3696101"
+    }
+},
+]
+
+var schedules = [
+{
     "title": "Multi-Turn Code Generation Through Single-Step Rewards",
     "conf": "ICML'25",
     "presenter": "Muhan Yuan",
@@ -14,11 +44,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-12-01-ICML'25-Multi-Turn.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-12-01-ICML'25-Multi-Turn"
         }
     ],
     "dblp": {
@@ -26,9 +56,6 @@ var upcoming_schedules = [
         "url": "https://openreview.net/pdf?id=aJeLhLcsh0"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Pruner: A Draft-then-Verify Exploration Mechanism to Accelerate Tensor Program Tuning",
     "conf": "ASPLOS'25",
