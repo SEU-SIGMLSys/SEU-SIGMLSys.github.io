@@ -17,7 +17,7 @@ var schedules = [
         },
         {
             "title": "Slides",
-            "url": "/slides/2025-12-08-Fork.pdf",
+            "url": "/slides/2025-12-08-EuroSys'25-Fork.pdf",
         },
         {
             "title": "Videos",
