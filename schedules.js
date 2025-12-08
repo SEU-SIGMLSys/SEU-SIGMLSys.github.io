@@ -10,7 +10,7 @@ var upcoming_schedules = [
     "links": [
         {
             "title": "TencentMeeting",
-            "url": "https://meeting.tencent.com/dm/qvug5ylXPFkh"
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
         },
         {
             "title": "Slides",
