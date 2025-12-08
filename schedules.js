@@ -21,7 +21,7 @@ var schedules = [
         },
         {
             "title": "Videos",
-            "url": "http://10.201.0.220:8099/?meeting=2025-12-08-Fork",
+            "url": "http://10.201.0.220:8099/?meeting=2025-12-08-EuroSys'25-Fork",
         }
     ],
     "dblp": {
