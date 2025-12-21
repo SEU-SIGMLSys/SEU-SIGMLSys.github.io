@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "Enhancing QoE in Collaborative Edge Systems With Feedback Diffusion Generative Scheduling",
+    "conf": "TMC'25",
+    "presenter": "Yuxiang Lu",
+    "facilitator": "Kai Huang, Chengqing Zhao",
+    "date": "Decmber 15, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2025-12-15-TMC'25-FDEdge.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2025-12-15-TMC'25-FDEdge",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://ieeexplore.ieee.org/document/11077726"
+    }
+},
+{
     "title": "Fork: A Dual Congestion Control Loop for Small and  Large Flows in Datacenters",
     "conf": "EuroSys'25",
     "presenter": "Kai Huang",
