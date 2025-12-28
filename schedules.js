@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
+    "conf": "arxiv'25",
+    "presenter": "Changshuo Yao",
+    "facilitator": "Botai Sun, Yujie Chen",
+    "date": "December 29, 2025.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2506.15196"
+    }
+},
 ]
 
 var schedules = [
