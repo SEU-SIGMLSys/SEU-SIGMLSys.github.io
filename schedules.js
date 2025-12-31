@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
     "conf": "arxiv'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2025-12-29-arxiv'25-HeurAgenix.pdf"
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2025-12-29-arxiv'25-HeurAgenix"
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://arxiv.org/pdf/2506.15196"
     }
 },
-]
-
-var schedules = [
 {
     "title": "Enhancing QoE in Collaborative Edge Systems With Feedback Diffusion Generative Scheduling",
     "conf": "TMC'25",
