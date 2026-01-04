@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling",
+    "conf": "SIGCOMM'25",
+    "presenter": "Botai Sun",
+    "facilitator": "Yujie Cheng, Haoran Ma",
+    "date": "January 5, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750499"
+    }
+},
 ]
 
 var schedules = [
