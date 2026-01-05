@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling",
     "conf": "SIGCOMM'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2026-01-05-SIGCOMM'25-SyCCL.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2026-01-05-SIGCOMM'25-SyCCL",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://dl.acm.org/doi/pdf/10.1145/3718958.3750499"
     }
 },
-]
-
-var schedules = [
 {
     "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
     "conf": "arxiv'25",
