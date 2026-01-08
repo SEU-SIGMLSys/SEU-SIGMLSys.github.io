@@ -1,4 +1,31 @@
 var upcoming_schedules = [
+{
+    "title": "Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion",
+    "conf": "PPoPP'25",
+    "presenter": "Yujie Chen",
+    "facilitator": "Botai Sun, Haoran Ma",
+    "date": "January 12, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": ""
+        },
+        {
+            "title": "Videos",
+            "url": ""
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dl.acm.org/doi/10.1145/3710848.3710868"
+    }
+},
 ]
 
 var schedules = [
