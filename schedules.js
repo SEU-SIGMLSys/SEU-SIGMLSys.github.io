@@ -1,4 +1,7 @@
 var upcoming_schedules = [
+]
+
+var schedules = [
 {
     "title": "Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion",
     "conf": "PPoPP'25",
@@ -14,11 +17,11 @@ var upcoming_schedules = [
         },
         {
             "title": "Slides",
-            "url": ""
+            "url": "/slides/2026-01-13-PPoPP'25-CCFuser.pdf",
         },
         {
             "title": "Videos",
-            "url": ""
+            "url": "http://10.201.0.220:8099/?meeting=2026-01-13-PPoPP'25-CCFuser",
         }
     ],
     "dblp": {
@@ -26,9 +29,6 @@ var upcoming_schedules = [
         "url": "https://dl.acm.org/doi/10.1145/3710848.3710868"
     }
 },
-]
-
-var schedules = [
 {
     "title": "SyCCL: Exploiting Symmetry for Efficient Collective Communication Scheduling",
     "conf": "SIGCOMM'25",
