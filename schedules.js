@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+    "conf": "SOSP'25",
+    "presenter": "Haoran Ma",
+    "facilitator": "Hangshuai He, Yujie Chen",
+    "date": "January 19, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/kfgFZEGjkz4g"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-01-19-SOSP'25-Pie.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-01-19-SOSP'25-Pie",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2510.24051"
+    }
+},
+{
     "title": "Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion",
     "conf": "PPoPP'25",
     "presenter": "Yujie Chen",
