@@ -3,6 +3,33 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "Never Start from Scratch: Expediting On-Device LLM Personalization via Explainable Model Selection",
+    "conf": "Mobisys'25",
+    "presenter": "Hangshuai He",
+    "facilitator": "Lili Pan, Haoran Ma",
+    "date": "March 23, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-03-23-Mobisys'25-Never_Start_from_Scratch.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-03-23-Mobisys'25-Never_Start_from_Scratch",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2504.13938"
+    }
+},
+{
     "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
     "conf": "SOSP'25",
     "presenter": "Haoran Ma",
