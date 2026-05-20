@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "dev": "vite",
+    "sync:feishu": "node scripts/sync-feishu.js",
     "test": "index.html"
   },
   "author": "",
