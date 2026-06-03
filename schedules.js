@@ -3,6 +3,276 @@ var upcoming_schedules = [
 
 var schedules = [
 {
+    "title": "A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro",
+    "conf": "Eurosys'25",
+    "presenter": "Mengxuan Liu",
+    "facilitator": "Chenhui Shi, Jianyu Jiang",
+    "date": "June 1, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-06-01-Eurosys'25-Faro.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-06-01-Eurosys'25-Faro",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2409.19488"
+    }
+},
+{
+    "title": "Marconi: Prefix Caching for the Era of Hybrid LLMs",
+    "conf": "MLSys'25",
+    "presenter": "Jianyu Jiang",
+    "facilitator": "Mengxuan Liu, Xuehuai Hong",
+    "date": "May 25, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-05-25-MLSys'25-Marconi.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-05-25-MLSys'25-Marconi",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2411.19379"
+    }
+},
+{
+    "title": "Weaver: Efficient Multi-LLM Serving with Attention Offloading",
+    "conf": "ATC'25",
+    "presenter": "Xuehuai Hong",
+    "facilitator": "Jianyu Jiang, Minxin Sun",
+    "date": "May 18, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-05-18-ATC'25-Weaver.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-05-18-ATC'25-Weaver",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.usenix.org/system/files/atc25-gao.pdf"
+    }
+},
+{
+    "title": "Activation-Informed Merging of Large Language Models",
+    "conf": "NeurIPS'25",
+    "presenter": "MinXin Sun",
+    "facilitator": "Xuehuai Hong, Wanqi Liu",
+    "date": "May 11, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-05-11-NeurIPS'25-AIM.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-05-11-NeurIPS'25-AIM",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2502.02421"
+    }
+},
+{
+    "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
+    "conf": "UbiComp'25",
+    "presenter": "Wanqi Liu",
+    "facilitator": "Minxin Sun, Xin Wang",
+    "date": "April 27, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-04-27-UbiComp'25-AutoLife.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-04-27-UbiComp'25-AutoLife",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://dapowan.github.io/files/AutoLife.pdf"
+    }
+},
+{
+    "title": "Fuyun: Bridging the Semantic Gap in Serverless Resource Provisioning via LLM Agents",
+    "conf": "AgenticOS'26",
+    "presenter": "Xin Wang",
+    "facilitator": "Wanqi Liu, Kaiqi Gu",
+    "date": "April 20, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-04-20-AgenticOS'26-Funyun.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-04-20-AgenticOS'26-Funyun",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://os-for-agent.github.io/papers/AgenticOS_2026_paper_16.pdf"
+    }
+},
+{
+    "title": "HydraServe:Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds",
+    "conf": "NSDI'26",
+    "presenter": "Kaiqi Gu",
+    "facilitator": "Xin Wang, Shizhe Xue",
+    "date": "April 13, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-04-13-NSDI'26-HydraServe.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-04-13-NSDI'26-HydraServe",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2502.15524"
+    }
+},
+{
+    "title": "FineBadminton: A Multi-Level Dataset for Fine-Grained  Badminton Video Understanding",
+    "conf": "ACM MM'25",
+    "presenter": "Shizhe Xue",
+    "facilitator": "Kaiqi Gu, Ling Xu",
+    "date": "April 7, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-04-07-ACMMM'25-FineBadminton.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-04-07-ACMMM'25-FineBadminton",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://arxiv.org/pdf/2508.07554"
+    }
+},
+{
+    "title": "FAST: Efficient Robot Action Tokenization",
+    "conf": "RSS'25",
+    "presenter": "Ling Xu",
+    "facilitator": "Shizhe Xue, Lili Pan",
+    "date": "April 7, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-04-07-RSS'25.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-04-07-RSS'25",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://www.pi.website/research/fast"
+    }
+},
+{
+    "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents",
+    "conf": "ACL'25",
+    "presenter": "Lili Pan",
+    "facilitator": "Ling Xu, Hangshuai He",
+    "date": "March 30, 2026.",
+    "time": "9:30 a.m.",
+    "location": "Room ARTS1021 @ SEU & Online",
+    "links": [
+        {
+            "title": "TencentMeeting",
+            "url": "https://meeting.tencent.com/dm/n4NIP7NvTHRb"
+        },
+        {
+            "title": "Slides",
+            "url": "/slides/2026-03-30-ACL'25-Reflective_Memory.pdf",
+        },
+        {
+            "title": "Videos",
+            "url": "http://10.201.0.220:8099/?meeting=2026-03-30-ACL'25-Reflective_Memory",
+        }
+    ],
+    "dblp": {
+        "source": "website",
+        "url": "https://aclanthology.org/2025.acl-long.413.pdf"
+    }
+},
+{
     "title": "Never Start from Scratch: Expediting On-Device LLM Personalization via Explainable Model Selection",
     "conf": "Mobisys'25",
     "presenter": "Hangshuai He",
