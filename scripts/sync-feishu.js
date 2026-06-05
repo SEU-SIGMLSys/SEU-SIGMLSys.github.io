@@ -14,9 +14,20 @@ const DEFAULT_CONFIG = {
     tableId: "tblrVI06ls9biJoA",
     viewId: "vew63l2LQh",
     outputPath: "schedules.js",
-    defaultTime: "9:30 a.m.",
+    slidesDir: "slides",
+    defaultTime: "11:00 a.m.",
     defaultLocation: "Room ARTS1021 @ SEU & Online",
     defaultDblpSource: "website",
+    confAliases: {
+        "The ACM Web Conference 2026": "WWW'26",
+        "ACM Web Conference 2026": "WWW'26",
+        "The Web Conference 2026": "WWW'26"
+    },
+    nameAliases: {
+        "秦子昂": "Ziang Qin",
+        "施晨晖": "Chenhui Shi",
+        "刘孟玄": "Mengxuan Liu",
+    },
     fieldAliases: {
         title: ["title", "paper title", "topic", "name", "论文标题", "论文题目", "题目", "标题", "名称"],
         conf: ["conf", "conference", "venue", "会议", "会议名称", "发表会议", "来源会议"],
@@ -170,20 +181,26 @@ async function main() {
     const config = loadConfig();
     const token = await getTenantAccessToken(appId, appSecret);
     const records = await listBitableRecords(token, config);
-    const schedules = records
-        .map((record, index) => toSchedule(record, config, index))
-        .filter(Boolean);
-
-    const { upcoming, history } = splitSchedules(schedules);
     const outputPath = path.resolve(ROOT_DIR, config.outputPath);
     const oldOutput = fs.existsSync(outputPath) ? fs.readFileSync(outputPath, "utf8") : "";
     const existingData = readExistingSchedules(oldOutput);
+    const schedules = (
+        await Promise.all(
+            records.map((record, index) =>
+                toSchedule(record, config, index, {
+                    token,
+                    dryRun: args.has("--dry-run")
+                })
+            )
+        )
+    ).filter(Boolean);
+    const { upcoming, history } = splitSchedules(schedules, { existingHistory: existingData.schedules });
     const replaceAll = args.has("--replace-all");
-    const nextUpcoming = upcoming;
+    const nextUpcoming = mergeUpcomingSchedules(existingData.upcoming, upcoming);
     const nextHistory = replaceAll ? history : mergeSchedules(existingData.schedules, history, nextUpcoming);
-    const output = renderSchedulesJs(nextUpcoming, nextHistory);
     const nextTotal = nextUpcoming.length + nextHistory.length;
     const existingTotal = existingData.upcoming.length + existingData.schedules.length;
+    const output = renderSchedulesJs(nextUpcoming, nextHistory);
 
     if (args.has("--dry-run")) {
         console.log(`[feishu-sync] fetched ${records.length} records`);
@@ -208,14 +225,16 @@ async function main() {
         );
     }
 
+    await downloadReferencedSlides([...nextUpcoming, ...nextHistory], config, token);
+
     if (normalizeNewlines(oldOutput) === normalizeNewlines(output)) {
-        console.log(`[feishu-sync] no changes. upcoming: ${upcoming.length}, schedules: ${history.length}`);
+        console.log(`[feishu-sync] no changes. output: upcoming ${nextUpcoming.length}, schedules ${nextHistory.length}`);
         return;
     }
 
     fs.writeFileSync(outputPath, output, "utf8");
     console.log(`[feishu-sync] updated ${path.relative(ROOT_DIR, outputPath)}`);
-    console.log(`[feishu-sync] upcoming: ${upcoming.length}, schedules: ${history.length}`);
+    console.log(`[feishu-sync] output: upcoming ${nextUpcoming.length}, schedules ${nextHistory.length}`);
 }
 
 function loadLocalEnv(filePath) {
@@ -270,6 +289,14 @@ function loadConfig() {
     return applyEnvOverrides({
         ...DEFAULT_CONFIG,
         ...userConfig,
+        confAliases: {
+            ...DEFAULT_CONFIG.confAliases,
+            ...(userConfig.confAliases || {})
+        },
+        nameAliases: {
+            ...DEFAULT_CONFIG.nameAliases,
+            ...(userConfig.nameAliases || {})
+        },
         fieldAliases: {
             ...DEFAULT_CONFIG.fieldAliases,
             ...(userConfig.fieldAliases || {})
@@ -352,7 +379,7 @@ async function fetchJson(url, options = {}) {
     return data;
 }
 
-function toSchedule(record, config, sourceIndex) {
+async function toSchedule(record, config, sourceIndex, options = {}) {
     const fields = record.fields || {};
     const hidden = readField(fields, config.fieldAliases.hidden);
 
@@ -361,8 +388,8 @@ function toSchedule(record, config, sourceIndex) {
     }
 
     const title = readField(fields, config.fieldAliases.title);
-    const conf = readField(fields, config.fieldAliases.conf);
-    const presenter = readField(fields, config.fieldAliases.presenter);
+    const conf = normalizeConfName(readField(fields, config.fieldAliases.conf), config);
+    const presenter = normalizePersonNames(readField(fields, config.fieldAliases.presenter), config);
 
     if (!title || !conf || !presenter) {
         const availableFields = Object.keys(fields).join(", ");
@@ -376,18 +403,21 @@ function toSchedule(record, config, sourceIndex) {
     const timeValue = rawField(fields, config.fieldAliases.time);
     const section = readField(fields, config.fieldAliases.section).toLowerCase();
     const tencentMeetingUrl = readField(fields, config.fieldAliases.tencentMeetingUrl, { preferUrl: true });
-    const slidesUrl = readField(fields, config.fieldAliases.slidesUrl, { preferUrl: true });
+    const slidesValue = rawField(fields, config.fieldAliases.slidesUrl);
     const videoUrl = readField(fields, config.fieldAliases.videoUrl, { preferUrl: true });
     const paperUrl = readField(fields, config.fieldAliases.paperUrl, { preferUrl: true });
     const paperSource = readField(fields, config.fieldAliases.paperSource) || config.defaultDblpSource;
-    const sortDate = parseScheduleDateTime(dateValue, timeValue);
+    const displayTime = formatTimeValue(timeValue) || config.defaultTime;
+    const sortDate = parseScheduleDateTime(dateValue, displayTime);
+    const formattedDate = formatDateValue(dateValue);
+    const slidesInfo = resolveSlidesUrl(slidesValue, { title, conf, date: formattedDate }, config, options);
 
     const links = [];
     if (tencentMeetingUrl) {
         links.push({ title: "TencentMeeting", url: tencentMeetingUrl });
     }
-    if (slidesUrl) {
-        links.push({ title: "Slides", url: slidesUrl });
+    if (slidesInfo.url) {
+        links.push({ title: "Slides", url: slidesInfo.url });
     }
     if (videoUrl) {
         links.push({ title: "Videos", url: videoUrl });
@@ -397,9 +427,9 @@ function toSchedule(record, config, sourceIndex) {
         title,
         conf,
         presenter,
-        facilitator: readField(fields, config.fieldAliases.facilitator),
-        date: formatDateValue(dateValue),
-        time: formatTimeValue(timeValue) || config.defaultTime,
+        facilitator: "",
+        date: formattedDate,
+        time: displayTime,
         location: readField(fields, config.fieldAliases.location) || config.defaultLocation,
         links
     };
@@ -423,6 +453,10 @@ function toSchedule(record, config, sourceIndex) {
         _sourceIndex: {
             value: sourceIndex,
             enumerable: false
+        },
+        _slidesAttachment: {
+            value: slidesInfo.attachment,
+            enumerable: false
         }
     });
 
@@ -436,6 +470,131 @@ function rawField(fields, aliases) {
 
 function readField(fields, aliases, options = {}) {
     return normalizeFieldValue(rawField(fields, aliases), options);
+}
+
+async function downloadReferencedSlides(schedules, config, token) {
+    const seen = new Set();
+    for (const schedule of schedules) {
+        const attachment = schedule._slidesAttachment;
+        if (!attachment || seen.has(attachment.fileToken)) {
+            continue;
+        }
+        seen.add(attachment.fileToken);
+        await downloadFeishuMedia(attachment.fileToken, attachment.filePath, token);
+    }
+}
+
+async function downloadFeishuMedia(fileToken, filePath, token) {
+    if (fs.existsSync(filePath)) {
+        return;
+    }
+
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    const url = `https://open.feishu.cn/open-apis/drive/v1/medias/${encodeURIComponent(fileToken)}/download`;
+    const response = await fetch(url, {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    });
+
+    if (!response.ok) {
+        const message = await response.text();
+        throw new Error(`Failed to download slides ${path.basename(filePath)}: ${message.slice(0, 300)}`);
+    }
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(filePath, buffer);
+    console.log(`[feishu-sync] downloaded ${path.relative(ROOT_DIR, filePath)}`);
+}
+
+function resolveSlidesUrl(value, schedule, config) {
+    const existingUrl = normalizeFieldValue(value, { preferUrl: true });
+    const attachment = findFeishuAttachment(value);
+
+    if (!attachment || !attachment.file_token) {
+        return { url: existingUrl, attachment: null };
+    }
+
+    const slidesDir = config.slidesDir || "slides";
+    const fileName = sanitizeSlideFileName(attachment.name || buildSlideFileName(schedule, attachment));
+    const filePath = path.resolve(ROOT_DIR, slidesDir, fileName);
+    const publicPath = `/${[slidesDir.replace(/^\/+|\/+$/g, ""), fileName].filter(Boolean).join("/")}`;
+
+    return {
+        url: publicPath,
+        attachment: {
+            fileToken: attachment.file_token,
+            filePath
+        }
+    };
+}
+
+function findFeishuAttachment(value) {
+    if (!value) {
+        return null;
+    }
+    if (Array.isArray(value)) {
+        for (const item of value) {
+            const attachment = findFeishuAttachment(item);
+            if (attachment) {
+                return attachment;
+            }
+        }
+        return null;
+    }
+    if (typeof value === "object") {
+        if (value.file_token) {
+            return value;
+        }
+        for (const nested of Object.values(value)) {
+            const attachment = findFeishuAttachment(nested);
+            if (attachment) {
+                return attachment;
+            }
+        }
+    }
+    return null;
+}
+
+function sanitizeSlideFileName(fileName) {
+    const sanitized = String(fileName || "")
+        .trim()
+        .replace(/[<>:"/\\|?*\x00-\x1F]/g, "-")
+        .replace(/\s+/g, "_")
+        .replace(/-+/g, "-");
+
+    return sanitized || "slides.pdf";
+}
+
+function buildSlideFileName(schedule, attachment) {
+    const date = parseDateValue(schedule.date);
+    const datePart = date
+        ? `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`
+        : "slides";
+    const titlePart = normalizeFilePart(schedule.title).slice(0, 60) || "presentation";
+    const confPart = normalizeFilePart(schedule.conf).slice(0, 20);
+    const extension = extensionFromAttachment(attachment);
+
+    return [datePart, confPart, titlePart].filter(Boolean).join("-") + extension;
+}
+
+function normalizeFilePart(value) {
+    return String(value || "")
+        .trim()
+        .replace(/[^A-Za-z0-9'._-]+/g, "_")
+        .replace(/_+/g, "_")
+        .replace(/^_+|_+$/g, "");
+}
+
+function extensionFromAttachment(attachment) {
+    const nameExtension = path.extname(attachment.name || "");
+    if (nameExtension) {
+        return nameExtension;
+    }
+    if (attachment.type === "application/pdf") {
+        return ".pdf";
+    }
+    return "";
 }
 
 function resolveFieldKey(fields, aliases = []) {
@@ -508,24 +667,61 @@ function normalizeFieldValue(value, options = {}) {
     return "";
 }
 
+function normalizePersonNames(value, config) {
+    const normalized = normalizeFieldValue(value);
+    if (!normalized) {
+        return "";
+    }
+
+    const aliases = config.nameAliases || {};
+    return normalized
+        .split(/\s*[,，、;；]\s*/)
+        .filter(Boolean)
+        .map((name) => aliases[name] || name)
+        .join(", ");
+}
+
+function normalizeConfName(value, config) {
+    const normalized = normalizeFieldValue(value);
+    if (!normalized) {
+        return "";
+    }
+
+    return (config.confAliases || {})[normalized] || normalized;
+}
+
 function isTruthyHidden(value) {
     return ["1", "true", "yes", "y", "hidden", "hide", "skip", "disabled", "是", "隐藏", "跳过", "不展示"].includes(
         String(value || "").trim().toLowerCase()
     );
 }
 
-function splitSchedules(schedules) {
+function splitSchedules(schedules, options = {}) {
     const ordered = schedules.slice().sort(compareScheduleDesc);
-    const latest = ordered[0];
-    const upcoming = latest ? [latest] : [];
-    const latestKey = latest ? scheduleKey(latest) : "";
-    const history = ordered.filter((schedule) => scheduleKey(schedule) !== latestKey);
+    const existingHistoryKeys = new Set((options.existingHistory || []).map(scheduleKey));
+    const nowTime = options.now instanceof Date ? options.now.getTime() : Date.now();
+    const upcoming = ordered
+        .filter((schedule) => isFutureSchedule(schedule, nowTime))
+        .filter((schedule) => !existingHistoryKeys.has(scheduleKey(schedule)))
+        .sort(compareScheduleAsc)
+        .slice(0, 1);
+    const upcomingKeys = new Set(upcoming.map(scheduleKey));
+    const history = ordered.filter((schedule) => !upcomingKeys.has(scheduleKey(schedule)));
 
     return { upcoming, history };
 }
 
 function compareScheduleDesc(a, b) {
     return (b._sortTime || 0) - (a._sortTime || 0) || (b._sourceIndex || 0) - (a._sourceIndex || 0);
+}
+
+function compareScheduleAsc(a, b) {
+    return (a._sortTime || 0) - (b._sortTime || 0) || (a._sourceIndex || 0) - (b._sourceIndex || 0);
+}
+
+function isFutureSchedule(schedule, nowTime) {
+    const scheduleTime = schedule._sortTime || parseScheduleDateTime(schedule.date, schedule.time)?.getTime() || 0;
+    return scheduleTime >= nowTime;
 }
 
 function formatDateValue(value) {
@@ -671,12 +867,16 @@ function mergeSchedules(existingHistory, incomingHistory, incomingUpcoming) {
     const byKey = new Map();
 
     for (const schedule of existingHistory) {
-        if (!upcomingKeys.has(scheduleKey(schedule))) {
-            byKey.set(scheduleKey(schedule), schedule);
+        const key = scheduleKey(schedule);
+        if (!upcomingKeys.has(key) && !byKey.has(key)) {
+            byKey.set(key, schedule);
         }
     }
     for (const schedule of incomingHistory) {
-        byKey.set(scheduleKey(schedule), schedule);
+        const key = scheduleKey(schedule);
+        if (!byKey.has(key)) {
+            byKey.set(key, schedule);
+        }
     }
 
     return Array.from(byKey.values()).sort((a, b) => {
@@ -686,8 +886,26 @@ function mergeSchedules(existingHistory, incomingHistory, incomingUpcoming) {
     });
 }
 
+function mergeUpcomingSchedules(existingUpcoming, incomingUpcoming) {
+    const existingByKey = new Map((existingUpcoming || []).map((schedule) => [scheduleKey(schedule), schedule]));
+    return incomingUpcoming.map((schedule) => mergeMissingScheduleFields(existingByKey.get(scheduleKey(schedule)), schedule));
+}
+
+function mergeMissingScheduleFields(existing, incoming) {
+    if (!existing) {
+        return incoming;
+    }
+
+    return {
+        ...incoming,
+        facilitator: incoming.facilitator || existing.facilitator || "",
+        location: incoming.location || existing.location || "",
+        time: incoming.time || existing.time || ""
+    };
+}
+
 function scheduleKey(schedule) {
-    return [schedule.title, schedule.conf, schedule.date, schedule.presenter].map(normalizeKey).join("|");
+    return [schedule.title, schedule.conf, schedule.date].map(normalizeKey).join("|");
 }
 
 function printHelp() {
