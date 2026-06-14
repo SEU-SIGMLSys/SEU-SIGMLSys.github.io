@@ -1,5 +1,46 @@
 var upcoming_schedules = [
     {
+        "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
+        "conf": "arXiv'26",
+        "presenter": "Qingyang Song",
+        "facilitator": "",
+        "date": "June 15, 2026.",
+        "time": "11:00 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2605.10332"
+        }
+    },
+    {
+        "title": "δ-mem: Efficient Online Memory for Large Language Models",
+        "conf": "arXiv'26",
+        "presenter": "Qingyang Song",
+        "facilitator": "",
+        "date": "June 15, 2026.",
+        "time": "11:00 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2605.12357"
+        }
+    }
+]
+
+var schedules = [
+    {
         "title": "EdgeGen: Efficient LLM-Empowered Model Generation with Quantization-Aware NAS",
         "conf": "WWW'26",
         "presenter": "Chenhui Shi",
@@ -21,10 +62,7 @@ var upcoming_schedules = [
             "source": "website",
             "url": "https://dl.acm.org/doi/10.1145/3774904.3792394"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "A House United Within Itself: SLO-Awareness for On-Premises Containerized ML Inference Clusters via Faro",
         "conf": "Eurosys'25",
