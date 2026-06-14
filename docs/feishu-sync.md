@@ -13,7 +13,7 @@ npm run sync:feishu
 脚本会先读取仓库现有的 `schedules.js` 和飞书表格里的有效记录，再按「组会汇报时间」判断记录位置：
 
 - 只有「组会汇报时间」还没到、并且尚未存在于历史 `schedules` 中的记录，才会进入 `upcoming_schedules`
-- 如果有多条未来记录，时间最近的一条写入 `upcoming_schedules`
+- 如果有多条未来记录，时间最近的一批写入 `upcoming_schedules`；同一时间有多篇报告时会一起展示
 - 已经过期的飞书记录会合并进历史 `schedules`
 - 仓库里已有的历史 `schedules` 会继续保留
 - 如果同一条历史记录已经存在，默认保留仓库里的版本，避免飞书记录重复写入历史

@@ -27,6 +27,8 @@ const DEFAULT_CONFIG = {
         "秦子昂": "Ziang Qin",
         "施晨晖": "Chenhui Shi",
         "刘孟玄": "Mengxuan Liu",
+        "刘蒙玄": "Mengxuan Liu",
+        "宋青阳": "Qingyang Song"
     },
     fieldAliases: {
         title: ["title", "paper title", "topic", "name", "论文标题", "论文题目", "题目", "标题", "名称"],
@@ -197,7 +199,7 @@ async function main() {
     const { upcoming, history } = splitSchedules(schedules, { existingHistory: existingData.schedules });
     const replaceAll = args.has("--replace-all");
     const nextUpcoming = mergeUpcomingSchedules(existingData.upcoming, upcoming);
-    const nextHistory = replaceAll ? history : mergeSchedules(existingData.schedules, history, nextUpcoming);
+    const nextHistory = replaceAll ? history : mergeSchedules(existingData.schedules, history, nextUpcoming, existingData.upcoming);
     const nextTotal = nextUpcoming.length + nextHistory.length;
     const existingTotal = existingData.upcoming.length + existingData.schedules.length;
     const output = renderSchedulesJs(nextUpcoming, nextHistory);
@@ -698,13 +700,18 @@ function isTruthyHidden(value) {
 
 function splitSchedules(schedules, options = {}) {
     const ordered = schedules.slice().sort(compareScheduleDesc);
-    const existingHistoryKeys = new Set((options.existingHistory || []).map(scheduleKey));
     const nowTime = options.now instanceof Date ? options.now.getTime() : Date.now();
-    const upcoming = ordered
+    const existingHistoryKeys = new Set(
+        (options.existingHistory || [])
+            .filter((schedule) => !isFutureSchedule(schedule, nowTime))
+            .map(scheduleKey)
+    );
+    const future = ordered
         .filter((schedule) => isFutureSchedule(schedule, nowTime))
         .filter((schedule) => !existingHistoryKeys.has(scheduleKey(schedule)))
-        .sort(compareScheduleAsc)
-        .slice(0, 1);
+        .sort(compareScheduleAsc);
+    const nextTime = future[0]?._sortTime || 0;
+    const upcoming = nextTime ? future.filter((schedule) => (schedule._sortTime || 0) === nextTime) : [];
     const upcomingKeys = new Set(upcoming.map(scheduleKey));
     const history = ordered.filter((schedule) => !upcomingKeys.has(scheduleKey(schedule)));
 
@@ -862,10 +869,16 @@ function readExistingSchedules(source) {
     };
 }
 
-function mergeSchedules(existingHistory, incomingHistory, incomingUpcoming) {
+function mergeSchedules(existingHistory, incomingHistory, incomingUpcoming, existingUpcoming = []) {
     const upcomingKeys = new Set(incomingUpcoming.map(scheduleKey));
     const byKey = new Map();
 
+    for (const schedule of existingUpcoming) {
+        const key = scheduleKey(schedule);
+        if (!upcomingKeys.has(key) && !byKey.has(key)) {
+            byKey.set(key, schedule);
+        }
+    }
     for (const schedule of existingHistory) {
         const key = scheduleKey(schedule);
         if (!upcomingKeys.has(key) && !byKey.has(key)) {
