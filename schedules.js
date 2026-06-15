@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
         "conf": "arXiv'26",
@@ -11,6 +13,14 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-06-15-arXiv'26-EmbodiSkill.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-06-15-arXiv'26-EmbodiSkill"
             }
         ],
         "dblp": {
@@ -30,16 +40,21 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-06-15-arXiv'26-Detla_mem.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-06-15-arXiv'26-Detla_mem"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://arxiv.org/abs/2605.12357"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "EdgeGen: Efficient LLM-Empowered Model Generation with Quantization-Aware NAS",
         "conf": "WWW'26",
@@ -56,6 +71,10 @@ var schedules = [
             {
                 "title": "Slides",
                 "url": "/slides/2026-06-08-WWW'26-EdgeGen.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-06-08-WWW'26-EdgeGen"
             }
         ],
         "dblp": {
