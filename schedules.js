@@ -5,9 +5,9 @@ var schedules = [
         "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
         "conf": "arXiv'26",
         "presenter": "Qingyang Song",
-        "facilitator": "",
+        "facilitator": "Ziang Qin, Chenhui Shi",
         "date": "June 15, 2026.",
-        "time": "11:00 a.m.",
+        "time": "10:00 a.m.",
         "location": "Room ARTS1021 @ SEU & Online",
         "links": [
             {
@@ -32,9 +32,9 @@ var schedules = [
         "title": "δ-mem: Efficient Online Memory for Large Language Models",
         "conf": "arXiv'26",
         "presenter": "Qingyang Song",
-        "facilitator": "",
+        "facilitator": "Ziang Qin, Chenhui Shi",
         "date": "June 15, 2026.",
-        "time": "11:00 a.m.",
+        "time": "10:00 a.m.",
         "location": "Room ARTS1021 @ SEU & Online",
         "links": [
             {
