@@ -2,6 +2,56 @@ var upcoming_schedules = []
 
 var schedules = [
     {
+        "title": "MIMESYS: Generating Realistic Executable Testing Environments from Resource Usage Traces",
+        "conf": "OSDI'26",
+        "presenter": "Minyuan Feng",
+        "facilitator": "Ziang Qin, Jinhan Xin",
+        "date": "July 6, 2026.",
+        "time": "4:00 p.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-07-06-OSDI'26-MIMESYS.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-07-06-OSDI'26-MIMESYS"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://daehyeok.kim/assets/papers/mimesys-osdi26.pdf"
+        }
+    },
+    {
+        "title": "Smaller but Better: Plasticity-Preserving Continual Learning for Embedded AI",
+        "conf": "WWW'26",
+        "presenter": "Ziang Qin",
+        "facilitator": "Qingyang Song, Minyuan Feng",
+        "date": "June 29, 2026.",
+        "time": "4:00 p.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-06-29-WWW'26-SmallerButBetter"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://dl.acm.org/doi/10.1145/3774904.3792073"
+        }
+    },
+    {
         "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
         "conf": "arXiv'26",
         "presenter": "Qingyang Song",
