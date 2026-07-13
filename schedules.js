@@ -2,6 +2,33 @@ var upcoming_schedules = []
 
 var schedules = [
     {
+        "title": "KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits",
+        "conf": "ICML'26",
+        "presenter": "Jinhan Xin",
+        "facilitator": "Minyuan Feng, Chuanhua Fan",
+        "date": "July 13, 2026.",
+        "time": "4:00 p.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-07-13-ICML'26-kernelBand.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-07-13-ICML'26-kernelBand"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2511.18868"
+        }
+    },
+    {
         "title": "MIMESYS: Generating Realistic Executable Testing Environments from Resource Usage Traces",
         "conf": "OSDI'26",
         "presenter": "Minyuan Feng",
