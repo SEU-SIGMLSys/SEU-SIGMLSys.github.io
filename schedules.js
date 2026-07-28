@@ -2,6 +2,33 @@ var upcoming_schedules = []
 
 var schedules = [
     {
+        "title": "Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms",
+        "conf": "OSDI'26",
+        "presenter": "Yunpeng Xu",
+        "facilitator": "Chuanhua Fan, Yifan Hu",
+        "date": "July 27, 2026.",
+        "time": "4:00 p.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/qmvxYw51Cnez"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-07-27-OSDI'26-Murakkab.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-07-27-OSDI'26-Murakkab"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://www.usenix.org/system/files/osdi26-chaudhry.pdf"
+        }
+    },
+    {
         "title": "EoH-S: Evolution of Heuristic Set Using LLMs for Automated Heuristic Design",
         "conf": "AAAI'26",
         "presenter": "Chuanhua Fan",
