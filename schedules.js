@@ -2,6 +2,33 @@ var upcoming_schedules = []
 
 var schedules = [
     {
+        "title": "SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training",
+        "conf": "ASPLOS'26",
+        "presenter": "Yifan Hu",
+        "facilitator": "Yunpeng Xu, Jiawei Liu",
+        "date": "August 26, 2026.",
+        "time": "11:00 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/5AUU6pm5pUqF"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-08-26-ASPLOS'26-SNIP.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-08-26-ASPLOS'26-SNIP"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2602.01410"
+        }
+    },
+    {
         "title": "Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms",
         "conf": "OSDI'26",
         "presenter": "Yunpeng Xu",
