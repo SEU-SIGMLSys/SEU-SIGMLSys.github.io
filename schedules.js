@@ -2,6 +2,33 @@ var upcoming_schedules = []
 
 var schedules = [
     {
+        "title": "KAIROX: Adaptive GPU-CPU Hybrid LLM Inference via Online Neuron Balancing",
+        "conf": "OSDI'26",
+        "presenter": "Lingfei Xu",
+        "facilitator": "Yifan Hu, Zhaonian Wang",
+        "date": "September 7, 2026.",
+        "time": "4:00 p.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/5AUU6pm5pUqF"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-09-07-OSDI'26-KAIROX.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-09-07-OSDI'26-KAIROX"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://www.usenix.org/system/files/osdi26-jiang-yapeng.pdf"
+        }
+    },
+    {
         "title": "SNIP: An Adaptive Mixed Precision Framework for Subbyte Large Language Model Training",
         "conf": "ASPLOS'26",
         "presenter": "Yifan Hu",
