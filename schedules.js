@@ -1,4 +1,24 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment",
+        "conf": "ICML'26",
+        "presenter": "Zikang Chen",
+        "facilitator": "Zhaonian Wang, Junan Lu",
+        "date": "September 21, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://icml.cc/virtual/2026/poster/65223"
+        }
+    }
+]
 
 var schedules = [
     {
