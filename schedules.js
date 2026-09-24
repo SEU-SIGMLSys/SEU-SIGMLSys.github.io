@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment",
         "conf": "ICML'26",
@@ -15,6 +17,10 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-09-21-ICML'26-VLA-XPU"
             }
         ],
         "dblp": {
@@ -38,16 +44,17 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-09-21-NSDI'26-DroidSpeak"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://www.usenix.org/conference/nsdi26/presentation/liu-yuhan"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters",
         "conf": "NSDI'25",
