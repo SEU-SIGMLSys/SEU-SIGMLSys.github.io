@@ -21,6 +21,25 @@ var upcoming_schedules = [
             "source": "website",
             "url": "https://dl.acm.org/doi/10.1145/3789240.3829189"
         }
+    },
+    {
+        "title": "Efficient Skill Grounding via Code Refactoring with Small Language Models",
+        "conf": "ICML'26",
+        "presenter": "Yuankun Feng",
+        "facilitator": "Yi Liu",
+        "date": "September 28, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2606.07999"
+        }
     }
 ]
 

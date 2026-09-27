@@ -168,12 +168,24 @@
 <script>
     let upcomingSchedules=upcoming_schedules;
     function formatUpcomingSummary(e){
-        return e?`${e.presenter} will present a ${e.conf} on ${(e.date||"a future date").replace(/\.$/,"")}. at ${e.location}.`:"No upcoming presentation scheduled."
+        return e?`${e.presenter} will present a paper${e.conf?` (${e.conf})`:""} on ${(e.date||"a future date").replace(/\.$/,"")} at ${e.location}.`:"No upcoming presentation scheduled."
+    }
+    function renderUpcomingSummary(container, entries){
+        container.replaceChildren();
+        if(!entries.length){
+            container.textContent=formatUpcomingSummary(null);
+            return;
+        }
+        entries.forEach(entry=>{
+            const paragraph=document.createElement("p");
+            paragraph.textContent=formatUpcomingSummary(entry);
+            container.appendChild(paragraph);
+        });
     }
     $(document).ready((()=>{
         renderSchedules("#upcoming-schedule-container", upcomingSchedules.slice());
         const e=document.getElementById("upcoming-summary");
-        e&&(e.textContent=formatUpcomingSummary(upcomingSchedules[0]))
+        e&&renderUpcomingSummary(e,upcomingSchedules)
     }))
 </script>
 <script>
