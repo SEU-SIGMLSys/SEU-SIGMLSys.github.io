@@ -1,4 +1,28 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "Artic: AI-oriented Real-time Communication for MLLM Video Assistant",
+        "conf": "SIGCOMM'26",
+        "presenter": "Junan Lu",
+        "facilitator": "Yi Liu",
+        "date": "September 28, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "Slides",
+                "url": "/slides/2026-09-28-SIGCOMM'26-Artic.pdf"
+            },
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://dl.acm.org/doi/10.1145/3789240.3829189"
+        }
+    }
+]
 
 var schedules = [
     {
