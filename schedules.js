@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "Artic: AI-oriented Real-time Communication for MLLM Video Assistant",
         "conf": "SIGCOMM'26",
@@ -15,6 +17,10 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-09-28-SIGCOMM'26-Artic"
             }
         ],
         "dblp": {
@@ -32,18 +38,23 @@ var upcoming_schedules = [
         "location": "Room ARTS1021 @ SEU & Online",
         "links": [
             {
+                "title": "Slides",
+                "url": "/slides/2026-09-28-ICML'26-RECENT.pdf"
+            },
+            {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-09-28-ICML'26-RECENT"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://arxiv.org/abs/2606.07999"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment",
         "conf": "ICML'26",
