@@ -2,7 +2,7 @@ var upcoming_schedules = [
     {
         "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
         "conf": "ICLR'26",
-        "presenter": "Mengxuan Lu",
+        "presenter": "Mengxuan Liu",
         "facilitator": "Junan Lu, Jingzhou Zhang",
         "date": "October 19, 2026.",
         "time": "10:30 a.m.",
