@@ -11,6 +11,10 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-10-19-ICLR'26-cache2cache.pdf"
             }
         ],
         "dblp": {
