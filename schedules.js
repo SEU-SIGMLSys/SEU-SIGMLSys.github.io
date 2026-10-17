@@ -1,4 +1,24 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
+        "conf": "ICLR'26",
+        "presenter": "Mengxuan Lu",
+        "facilitator": "Junan Lu, Jingzhou Zhang",
+        "date": "October 19, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2510.03215"
+        }
+    }
+]
 
 var schedules = [
     {
