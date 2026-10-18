@@ -21,6 +21,29 @@ var upcoming_schedules = [
             "source": "website",
             "url": "https://arxiv.org/abs/2510.03215"
         }
+    },
+    {
+        "title": "Agentix: An Efficient Serving Engine for LLM Agents as General Programs",
+        "conf": "NSDI'26",
+        "presenter": "Jingzhou Zhang",
+        "facilitator": "Mengxuan Liu, Chenhui Shi",
+        "date": "October 19, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-10-19-NSDI'26-agentix.pdf"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://www.usenix.org/conference/nsdi26/presentation/luo"
+        }
     }
 ]
 
