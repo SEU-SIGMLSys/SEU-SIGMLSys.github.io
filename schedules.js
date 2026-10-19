@@ -1,5 +1,46 @@
 var upcoming_schedules = [
     {
+        "title": "Trace as State: Reasoning Traces as Conditional States for Long-Context Transformers",
+        "conf": "arXiv'26",
+        "presenter": "Chenhui Shi",
+        "facilitator": "Jingzhou Zhang, Shijie Xue",
+        "date": "October 26, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "http://arxiv.org/abs/2609.02702"
+        }
+    },
+    {
+        "title": "GenTac: Generative Modeling and Forecasting of Soccer Tactics",
+        "conf": "arXiv'26",
+        "presenter": "Shijie Xue",
+        "facilitator": "Chenhui Shi, Ling Xu",
+        "date": "October 26, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2604.11786"
+        }
+    }
+]
+
+var schedules = [
+    {
         "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
         "conf": "ICLR'26",
         "presenter": "Mengxuan Liu",
@@ -15,6 +56,10 @@ var upcoming_schedules = [
             {
                 "title": "Slides",
                 "url": "/slides/2026-10-19-ICLR'26-cache2cache.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-10-19-ICLR'26-cache2cache"
             }
         ],
         "dblp": {
@@ -38,16 +83,17 @@ var upcoming_schedules = [
             {
                 "title": "Slides",
                 "url": "/slides/2026-10-19-NSDI'26-agentix.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-10-19-NSDI'26-agentix"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://www.usenix.org/conference/nsdi26/presentation/luo"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "Artic: AI-oriented Real-time Communication for MLLM Video Assistant",
         "conf": "SIGCOMM'26",

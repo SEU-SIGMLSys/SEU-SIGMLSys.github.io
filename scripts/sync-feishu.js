@@ -154,6 +154,117 @@ Object.assign(DEFAULT_CONFIG.fieldAliases, {
     ]
 });
 
+// --- Chinese name -> English name -----------------------------------------
+// pinyin-pro is optional. When it is installed (npm install), Chinese names in
+// the Feishu table are converted automatically; explicit nameAliases always win.
+// Without the library the script keeps the Chinese name and prints a warning.
+let pinyinFn = null;
+let pinyinLoadAttempted = false;
+
+function getPinyin() {
+    if (pinyinLoadAttempted) {
+        return pinyinFn;
+    }
+
+    pinyinLoadAttempted = true;
+    try {
+        const loaded = require("pinyin-pro");
+        pinyinFn = loaded.pinyin || (loaded.default && loaded.default.pinyin) || null;
+    } catch (error) {
+        pinyinFn = null;
+    }
+
+    return pinyinFn;
+}
+
+const COMPOUND_SURNAMES = [
+    "欧阳", "太史", "端木", "上官", "司马", "东方", "独孤", "南宫", "万俟", "闻人",
+    "夏侯", "诸葛", "尉迟", "公羊", "赫连", "澹台", "皇甫", "宗政", "濮阳", "公冶",
+    "太叔", "申屠", "公孙", "慕容", "仲孙", "钟离", "长孙", "宇文", "司徒", "鲜于",
+    "司空", "闾丘", "子车", "亓官", "司寇", "巫马", "公西", "颛孙", "壤驷", "公良",
+    "漆雕", "乐正", "宰父", "谷梁", "拓跋", "夹谷", "轩辕", "令狐", "段干", "百里",
+    "呼延", "东郭", "南门", "羊舌", "微生", "梁丘", "公仲", "公上", "左丘", "贯丘",
+    "西门", "第五", "即墨", "达奚", "褚师"
+];
+
+const CHINESE_CHAR_RE = /[㐀-䶿一-鿿豈-﫿]/;
+
+function hasChinese(value) {
+    return CHINESE_CHAR_RE.test(String(value || ""));
+}
+
+function capitalizeWord(word) {
+    return word ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : "";
+}
+
+function pinyinOf(text, options = {}) {
+    const pinyin = getPinyin();
+    if (!pinyin) {
+        return [];
+    }
+
+    try {
+        const result = pinyin(text, { toneType: "none", type: "array", ...options });
+        return Array.isArray(result) ? result : String(result).split(/\s+/).filter(Boolean);
+    } catch (error) {
+        return [];
+    }
+}
+
+function chineseNameToEnglish(name) {
+    const cleaned = String(name || "").replace(/[\s·・]/g, "");
+    if (!cleaned || !hasChinese(cleaned)) {
+        return "";
+    }
+
+    const surname = COMPOUND_SURNAMES.find((item) => cleaned.startsWith(item)) || cleaned.slice(0, 1);
+    const given = cleaned.slice(surname.length);
+    if (!given) {
+        return "";
+    }
+
+    const surnamePinyin = pinyinOf(surname, { surname: true });
+    const givenPinyin = pinyinOf(given);
+    if (!surnamePinyin.length || !givenPinyin.length) {
+        return "";
+    }
+
+    // The site writes names in Western order: "Lingfei Xu", not "Xu Lingfei".
+    return `${givenPinyin.map(capitalizeWord).join("")} ${surnamePinyin.map(capitalizeWord).join("")}`.trim();
+}
+
+const autoConvertedNames = new Map();
+
+function toEnglishName(name) {
+    const trimmed = String(name || "").trim();
+    if (!trimmed || !hasChinese(trimmed)) {
+        return trimmed;
+    }
+
+    const converted = chineseNameToEnglish(trimmed);
+    if (converted) {
+        autoConvertedNames.set(trimmed, converted);
+        return converted;
+    }
+
+    console.warn(
+        `[feishu-sync] warning: could not convert Chinese name "${trimmed}" to English. ` +
+            'Run "npm install" to enable automatic pinyin conversion, or add it to nameAliases.'
+    );
+    return trimmed;
+}
+
+function reportNameConversions() {
+    if (!autoConvertedNames.size) {
+        return;
+    }
+
+    const pairs = Array.from(autoConvertedNames.entries())
+        .map(([from, to]) => `${from} -> ${to}`)
+        .join(", ");
+    console.log(`[feishu-sync] auto-converted names: ${pairs}`);
+}
+
 const args = new Set(process.argv.slice(2));
 
 if (args.has("--help") || args.has("-h")) {
