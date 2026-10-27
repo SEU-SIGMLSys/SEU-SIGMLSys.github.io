@@ -20,7 +20,7 @@ var schedules = [
             },
             {
                 "title": "Videos",
-                "url": "http://10.201.0.220:8099/?meeting=2026-10-26-arXiv'26-TraceAsState"
+                "url": "http://10.201.0.220:8099/?meeting=2026-10-26-arXiv'26-Trace_As_State"
             }
         ],
         "dblp": {
