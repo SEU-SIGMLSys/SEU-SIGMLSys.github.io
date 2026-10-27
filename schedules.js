@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "Trace as State: Reasoning Traces as Conditional States for Long-Context Transformers",
         "conf": "arXiv'26",
@@ -11,6 +13,14 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-10-26-arXiv'26-Trace_As_State.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-10-26-arXiv'26-Trace_As_State"
             }
         ],
         "dblp": {
@@ -30,16 +40,21 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-10-26-arXiv'26-GenTac.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-10-26-arXiv'26-GenTac"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://arxiv.org/abs/2604.11786"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
         "conf": "ICLR'26",
