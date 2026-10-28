@@ -1,4 +1,24 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+        "conf": "ICML'26",
+        "presenter": "Kaiqi Gu",
+        "facilitator": "Ling Xu, Jianyu Jiang",
+        "date": "November 2, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2602.02579"
+        }
+    }
+]
 
 var schedules = [
     {
