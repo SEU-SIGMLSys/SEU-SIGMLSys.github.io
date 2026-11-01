@@ -17,6 +17,25 @@ var upcoming_schedules = [
             "source": "website",
             "url": "https://arxiv.org/abs/2602.02579"
         }
+    },
+    {
+        "title": "VLA Models Are More Generalizable Than You Think: Revisiting Physical and Spatial Modeling",
+        "conf": "CVPR'26",
+        "presenter": "Ling Xu",
+        "facilitator": "Kaiqi Gu, Jianyu Jiang",
+        "date": "November 2, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_VLA_Models_Are_More_Generalizable_Than_You_Think_Revisiting_Physical_CVPR_2026_paper.html"
+        }
     }
 ]
 
