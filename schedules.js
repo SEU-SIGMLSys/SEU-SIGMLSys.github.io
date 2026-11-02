@@ -11,6 +11,10 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-11-02-ICML'26-ProphetKV.pdf"
             }
         ],
         "dblp": {
@@ -30,6 +34,10 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-11-02-CVPR'26-FTM_FLA.pdf"
             }
         ],
         "dblp": {
