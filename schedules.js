@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
         "conf": "ICML'26",
@@ -15,6 +17,10 @@ var upcoming_schedules = [
             {
                 "title": "Slides",
                 "url": "/slides/2026-11-02-ICML'26-ProphetKV.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-11-02-ICML'26-ProphetKV"
             }
         ],
         "dblp": {
@@ -38,16 +44,17 @@ var upcoming_schedules = [
             {
                 "title": "Slides",
                 "url": "/slides/2026-11-02-CVPR'26-FTM_FLA.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-11-02-CVPR'26-FTM_FLA"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_VLA_Models_Are_More_Generalizable_Than_You_Think_Revisiting_Physical_CVPR_2026_paper.html"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "Trace as State: Reasoning Traces as Conditional States for Long-Context Transformers",
         "conf": "arXiv'26",
