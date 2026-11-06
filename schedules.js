@@ -1,4 +1,43 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning",
+        "conf": "OSDI'26",
+        "presenter": "Jianyu Jiang",
+        "facilitator": "Kaiqi Gu, Minxin Sun",
+        "date": "November 9, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/abs/2505.04021"
+        }
+    },
+    {
+        "title": "Game-Theoretic Co-Evolution for LLM-Based Heuristic Discovery",
+        "conf": "ICML'26",
+        "presenter": "Minxin Sun",
+        "facilitator": "Jianyu Jiang, Xuanhuai Hong",
+        "date": "November 9, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://arxiv.org/pdf/2601.22896"
+        }
+    }
+]
 
 var schedules = [
     {
