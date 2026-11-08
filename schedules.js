@@ -22,7 +22,7 @@ var upcoming_schedules = [
         "title": "Game-Theoretic Co-Evolution for LLM-Based Heuristic Discovery",
         "conf": "ICML'26",
         "presenter": "Minxin Sun",
-        "facilitator": "Jianyu Jiang, Xuanhuai Hong",
+        "facilitator": "Jianyu Jiang, Xuehuai Hong",
         "date": "November 9, 2026.",
         "time": "10:30 a.m.",
         "location": "Room ARTS1021 @ SEU & Online",
