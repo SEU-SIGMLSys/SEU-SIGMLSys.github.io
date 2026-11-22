@@ -1,4 +1,43 @@
-var upcoming_schedules = []
+var upcoming_schedules = [
+    {
+        "title": "Dual-level Adaptation for Multi-Object Tracking: Building Test-Time Calibration from Experience and Intuition",
+        "conf": "CVPR'26",
+        "presenter": "Wanqi Liu",
+        "facilitator": "Xuehuai Hong, Xin Wang",
+        "date": "November 23, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Dual-level_Adaptation_for_Multi-Object_Tracking_Building_Test-Time_Calibration_from_Experience_CVPR_2026_paper.html"
+        }
+    },
+    {
+        "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+        "conf": "MobiCom'26",
+        "presenter": "Xin Wang",
+        "facilitator": "Wanqi Liu, Jinhan Xin",
+        "date": "November 23, 2026.",
+        "time": "10:30 a.m.",
+        "location": "Room ARTS1021 @ SEU & Online",
+        "links": [
+            {
+                "title": "TencentMeeting",
+                "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            }
+        ],
+        "dblp": {
+            "source": "website",
+            "url": "https://dl.acm.org/doi/10.1145/3795866.3844495"
+        }
+    }
+]
 
 var schedules = [
     {
