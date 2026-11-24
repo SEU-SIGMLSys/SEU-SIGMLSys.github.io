@@ -1,4 +1,6 @@
-var upcoming_schedules = [
+var upcoming_schedules = []
+
+var schedules = [
     {
         "title": "Dual-level Adaptation for Multi-Object Tracking: Building Test-Time Calibration from Experience and Intuition",
         "conf": "CVPR'26",
@@ -11,6 +13,14 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-11-23-CVPR'26-TCEI.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-11-23-CVPR'26-TCEI"
             }
         ],
         "dblp": {
@@ -30,16 +40,21 @@ var upcoming_schedules = [
             {
                 "title": "TencentMeeting",
                 "url": "https://meeting.tencent.com/dm/KNvkQuZ37UNk"
+            },
+            {
+                "title": "Slides",
+                "url": "/slides/2026-11-23-MobiCom'26-mzCache.pdf"
+            },
+            {
+                "title": "Videos",
+                "url": "http://10.201.0.220:8099/?meeting=2026-11-23-MobiCom'26-mzCache"
             }
         ],
         "dblp": {
             "source": "website",
             "url": "https://dl.acm.org/doi/10.1145/3795866.3844495"
         }
-    }
-]
-
-var schedules = [
+    },
     {
         "title": "Game-Theoretic Co-Evolution for LLM-Based Heuristic Discovery",
         "conf": "ICML'26",
